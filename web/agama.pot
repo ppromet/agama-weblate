@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-13 02:04+0000\n"
+"POT-Creation-Date: 2023-08-17 02:02+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,47 +54,37 @@ msgid "Cannot read the file"
 msgstr ""
 
 #. TRANSLATORS: the installer reports some errors,
-#. the beginning (1/3)
-#: src/components/core/InstallButton.jsx:48
-msgid "There are some reported issues. Please, check"
+#. the part in curly brackets {} is a clickable link
+#: src/components/core/InstallButton.jsx:45
+msgid ""
+"There are some reported issues. Please, check {the list of issues} before "
+"proceeding with the installation."
 msgstr ""
 
-#. TRANSLATORS: the installer reports some errors,
-#. the middle part (a clickable link) (2/3)
-#: src/components/core/InstallButton.jsx:53
-msgid "the list of issues"
-msgstr ""
-
-#. TRANSLATORS: the installer reports some errors,
-#. the end (3/3)
-#: src/components/core/InstallButton.jsx:59
-msgid "before proceeding with the installation."
-msgstr ""
-
-#: src/components/core/InstallButton.jsx:67
+#: src/components/core/InstallButton.jsx:60
 msgid "Confirm Installation"
 msgstr ""
 
-#: src/components/core/InstallButton.jsx:77
+#: src/components/core/InstallButton.jsx:70
 msgid "Please, cancel and check the settings if you are unsure."
 msgstr ""
 
 #. TRANSLATORS: button label
-#: src/components/core/InstallButton.jsx:83
+#: src/components/core/InstallButton.jsx:76
 msgid "Continue"
 msgstr ""
 
-#: src/components/core/InstallButton.jsx:93
+#: src/components/core/InstallButton.jsx:86
 msgid "Problems Found"
 msgstr ""
 
 #. TRANSLATORS: button label
-#: src/components/core/InstallButton.jsx:104
+#: src/components/core/InstallButton.jsx:97
 msgid "Accept"
 msgstr ""
 
 #. TRANSLATORS: button label
-#: src/components/core/InstallButton.jsx:152
+#: src/components/core/InstallButton.jsx:145
 msgid "Install"
 msgstr ""
 
@@ -253,8 +243,10 @@ msgstr ""
 msgid "language"
 msgstr ""
 
+#. TRANSLATORS: page section
 #. TRANSLATORS: page header
 #: src/components/l10n/L10nPage.jsx:84
+#: src/components/overview/L10nSection.jsx:82
 msgid "Localization"
 msgstr ""
 
@@ -433,8 +425,10 @@ msgstr ""
 msgid "Connect to a Wi-Fi network"
 msgstr ""
 
+#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:170
+#: src/components/overview/NetworkSection.jsx:102
 msgid "Network"
 msgstr ""
 
@@ -511,4 +505,96 @@ msgstr ""
 #. TRANSLATORS: menu label, remove the selected WiFi network settings
 #: src/components/network/WifiNetworkMenu.jsx:45
 msgid "Forget network"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by a language name and code,
+#. example: "English (en_US.UTF-8)"
+#: src/components/overview/L10nSection.jsx:70
+#, javascript-format
+msgid "The system will use %s as its default language."
+msgstr ""
+
+#: src/components/overview/NetworkSection.jsx:78
+msgid "No network connections detected"
+msgstr ""
+
+#. TRANSLATORS: header for the list of active network connections,
+#. %d is replaced by the number of active connections
+#: src/components/overview/NetworkSection.jsx:87
+#, javascript-format
+msgid "%d connection set:"
+msgid_plural "%d connections set:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/overview/SoftwareSection.jsx:36
+msgid "Reading software repositories"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by the estimated installation size,
+#. example: "728.8 MiB"
+#: src/components/overview/SoftwareSection.jsx:120
+#, javascript-format
+msgid "Installation will take %s"
+msgstr ""
+
+#. TRANSLATORS: clickable link label
+#: src/components/overview/SoftwareSection.jsx:145
+msgid "Refresh the repositories"
+msgstr ""
+
+#. TRANSLATORS: page section
+#: src/components/overview/SoftwareSection.jsx:155
+msgid "Software"
+msgstr ""
+
+#: src/components/overview/StorageSection.jsx:35
+msgid "Device not selected yet"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by the device name and its size,
+#. example: "/dev/sda, 20 GiB"
+#: src/components/overview/StorageSection.jsx:44
+#, javascript-format
+msgid "Install using device %s and deleting all its content"
+msgstr ""
+
+#: src/components/overview/StorageSection.jsx:56
+msgid "Probing storage devices"
+msgstr ""
+
+#. TRANSLATORS: page section title
+#: src/components/overview/StorageSection.jsx:164
+msgid "Storage"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by the user name
+#: src/components/overview/UsersSection.jsx:80
+#, javascript-format
+msgid "User %s will be created"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:87
+msgid "No user defined yet"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:101
+msgid "Root authentication set for using both, password and public SSH Key"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:102
+msgid "No root authentication method defined"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:103
+msgid "Root authentication set for using password"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:104
+msgid "Root authentication set for using public SSH Key"
+msgstr ""
+
+#. TRANSLATORS: page section title
+#: src/components/overview/UsersSection.jsx:120
+msgid "Users"
 msgstr ""
