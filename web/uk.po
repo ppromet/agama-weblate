@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-20 02:03+0000\n"
+"POT-Creation-Date: 2023-08-28 15:00+0000\n"
 "PO-Revision-Date: 2023-08-06 21:15+0000\n"
 "Last-Translator: Milachew <milachew@mail.lv>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -601,4 +601,45 @@ msgstr ""
 #. TRANSLATORS: page section title
 #: src/components/overview/UsersSection.jsx:120
 msgid "Users"
+msgstr ""
+
+#: src/components/questions/GenericQuestion.jsx:35
+#: src/components/questions/LuksActivationQuestion.jsx:60
+msgid "Question"
+msgstr ""
+
+#. TRANSLATORS: error message, user entered a wrong password
+#: src/components/questions/LuksActivationQuestion.jsx:34
+msgid "Given encryption password didn't work"
+msgstr ""
+
+#: src/components/questions/LuksActivationQuestion.jsx:59
+msgid "Encrypted Device"
+msgstr ""
+
+#. TRANSLATORS: field label
+#: src/components/questions/LuksActivationQuestion.jsx:69
+msgid "Encryption Password"
+msgstr ""
+
+#: src/components/software/ChangeProductLink.jsx:36
+msgid "Change product"
+msgstr ""
+
+#: src/components/software/ProductSelectionPage.jsx:68
+msgid "Loading available products, please wait..."
+msgstr ""
+
+#. TRANSLATORS: page header
+#: src/components/software/ProductSelectionPage.jsx:93
+msgid "Product selection"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/software/ProductSelectionPage.jsx:98
+msgid "Select"
+msgstr ""
+
+#: src/components/software/ProductSelectionPage.jsx:103
+msgid "Choose a product"
 msgstr ""
