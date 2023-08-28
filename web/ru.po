@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-19 12:50+0000\n"
+"POT-Creation-Date: 2023-08-20 02:03+0000\n"
 "PO-Revision-Date: 2023-08-06 21:15+0000\n"
 "Last-Translator: Milachew <milachew@mail.lv>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -20,14 +20,585 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.9.1\n"
 
-#: src/components/core/FileViewer.jsx:67
+#: src/components/core/About.jsx:43 src/components/core/About.jsx:48
+msgid "About Agama"
+msgstr ""
+
+#. TRANSLATORS: content of the "About" popup (1/2)
+#: src/components/core/About.jsx:53
+msgid ""
+"Agama is an experimental installer for (open)SUSE systems. It still under "
+"development so, please, do not use it in production environments. If you "
+"want to give it a try, we recommend to use a virtual machine to prevent any "
+"possible data loss."
+msgstr ""
+
+#. TRANSLATORS: content of the "About" popup (2/2)
+#. %s is replaced by the project URL
+#: src/components/core/About.jsx:65
+#, javascript-format
+msgid "For more information, please visit the project's repository at %s."
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
+#: src/components/core/Sidebar.jsx:175 src/components/core/Terminal.jsx:48
+#: src/components/network/WifiSelector.jsx:151
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/components/core/FileViewer.jsx:65
 msgid "Reading file..."
 msgstr "Чтение файла..."
 
-#: src/components/core/FileViewer.jsx:73
+#: src/components/core/FileViewer.jsx:71
 msgid "Cannot read the file"
 msgstr "Невозможно прочитать файл"
 
-#: src/components/core/FileViewer.jsx:82
-msgid "Close"
-msgstr "Закрыть"
+#. TRANSLATORS: the installer reports some errors,
+#. the part in curly brackets {} is a clickable link
+#: src/components/core/InstallButton.jsx:45
+msgid ""
+"There are some reported issues. Please, check {the list of issues} before "
+"proceeding with the installation."
+msgstr ""
+
+#: src/components/core/InstallButton.jsx:60
+msgid "Confirm Installation"
+msgstr ""
+
+#: src/components/core/InstallButton.jsx:70
+msgid "Please, cancel and check the settings if you are unsure."
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/InstallButton.jsx:76
+msgid "Continue"
+msgstr ""
+
+#: src/components/core/InstallButton.jsx:86
+msgid "Problems Found"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/InstallButton.jsx:97
+msgid "Accept"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/InstallButton.jsx:145
+msgid "Install"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/InstallationFinished.jsx:42
+msgid "Finish"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/InstallationFinished.jsx:44
+msgid "Reboot"
+msgstr ""
+
+#: src/components/core/InstallationFinished.jsx:57
+msgid "Installation Finished"
+msgstr ""
+
+#: src/components/core/InstallationFinished.jsx:68
+msgid "Congratulations!"
+msgstr ""
+
+#: src/components/core/InstallationFinished.jsx:72
+msgid "The installation on your machine is complete."
+msgstr ""
+
+#: src/components/core/InstallationFinished.jsx:76
+msgid "At this point you can power off the machine."
+msgstr ""
+
+#: src/components/core/InstallationFinished.jsx:77
+msgid "At this point you can reboot the machine to log in to the new system."
+msgstr ""
+
+#: src/components/core/InstallationFinished.jsx:80
+msgid "Have a lot of fun! Your openSUSE Development Team."
+msgstr ""
+
+#: src/components/core/InstallationProgress.jsx:32
+msgid "Installing"
+msgstr ""
+
+#: src/components/core/IssuesLink.jsx:40
+msgid "Show issues"
+msgstr ""
+
+#: src/components/core/IssuesLink.jsx:43
+msgid "There are new issues"
+msgstr ""
+
+#: src/components/core/IssuesPage.jsx:115
+msgid "No issues found. Everything looks ok."
+msgstr ""
+
+#: src/components/core/LogsButton.jsx:98
+msgid "Collecting logs..."
+msgstr ""
+
+#: src/components/core/LogsButton.jsx:98
+msgid "Download logs"
+msgstr ""
+
+#: src/components/core/LogsButton.jsx:106
+msgid ""
+"The browser will run the logs download as soon as they are ready. Please, be "
+"patient."
+msgstr ""
+
+#: src/components/core/LogsButton.jsx:114
+msgid "Something went wrong while collecting logs. Please, try again."
+msgstr ""
+
+#: src/components/core/PasswordAndConfirmationInput.jsx:37
+msgid "Passwords do not match"
+msgstr ""
+
+#: src/components/core/PasswordAndConfirmationInput.jsx:58
+#: src/components/network/WifiConnectionForm.jsx:124
+#: src/components/network/WifiConnectionForm.jsx:126
+msgid "Password"
+msgstr ""
+
+#: src/components/core/PasswordAndConfirmationInput.jsx:63
+msgid "User password"
+msgstr ""
+
+#: src/components/core/PasswordAndConfirmationInput.jsx:72
+msgid "Password confirmation"
+msgstr ""
+
+#: src/components/core/PasswordAndConfirmationInput.jsx:80
+msgid "User password confirmation"
+msgstr ""
+
+#: src/components/core/RowActions.jsx:62
+msgid "Actions"
+msgstr ""
+
+#: src/components/core/SectionSkeleton.jsx:29
+#: src/components/core/SectionSkeleton.jsx:34
+msgid "Waiting"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/ShowLogButton.jsx:47
+msgid "Show Logs"
+msgstr ""
+
+#. TRANSLATORS: popup dialog title
+#: src/components/core/ShowLogButton.jsx:53
+msgid "YaST Logs"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/core/ShowTerminalButton.jsx:48
+msgid "Open Terminal"
+msgstr ""
+
+#: src/components/core/Sidebar.jsx:133
+msgid "Show global options"
+msgstr ""
+
+#: src/components/core/Sidebar.jsx:139
+msgid "New issues found"
+msgstr ""
+
+#: src/components/core/Sidebar.jsx:149
+msgid "Global options"
+msgstr ""
+
+#. TRANSLATORS: sidebar header
+#: src/components/core/Sidebar.jsx:155
+msgid "Options"
+msgstr ""
+
+#: src/components/core/Sidebar.jsx:162
+msgid "Hide navigation and other options"
+msgstr ""
+
+#: src/components/core/ValidationErrors.jsx:63
+msgid "Errors"
+msgstr ""
+
+#. TRANSLATORS: %d is replaced with the number of errors found
+#: src/components/core/ValidationErrors.jsx:86
+#, javascript-format
+msgid "%d error found"
+msgid_plural "%d errors found"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/components/core/ValidationErrors.jsx:96
+msgid "Basic popover"
+msgstr ""
+
+#: src/components/l10n/L10nPage.jsx:72
+msgid "language"
+msgstr ""
+
+#. TRANSLATORS: page header
+#. TRANSLATORS: page section
+#: src/components/l10n/L10nPage.jsx:84
+#: src/components/overview/L10nSection.jsx:82
+msgid "Localization"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/layout/DBusError.jsx:38
+msgid "Reload"
+msgstr ""
+
+#. TRANSLATORS: page title
+#: src/components/layout/DBusError.jsx:46
+msgid "D-Bus Error"
+msgstr ""
+
+#: src/components/layout/DBusError.jsx:53
+msgid "Cannot connect to D-Bus"
+msgstr ""
+
+#: src/components/layout/DBusError.jsx:56
+msgid ""
+"Could not connect to the D-Bus service. Please, check whether it is running."
+msgstr ""
+
+#: src/components/layout/Loading.jsx:28
+msgid "Loading installation environment, please wait."
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/network/AddressesDataList.jsx:81
+#: src/components/network/DnsDataList.jsx:87
+msgid "Remove"
+msgstr ""
+
+#. TRANSLATORS: input field name
+#: src/components/network/AddressesDataList.jsx:93
+#: src/components/network/AddressesDataList.jsx:94
+#: src/components/network/IpAddressInput.jsx:33
+msgid "IP Address"
+msgstr ""
+
+#. TRANSLATORS: input field name
+#: src/components/network/AddressesDataList.jsx:102
+#: src/components/network/AddressesDataList.jsx:103
+msgid "Prefix length or netmask"
+msgstr ""
+
+#: src/components/network/AddressesDataList.jsx:119
+msgid "Add an address"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/network/AddressesDataList.jsx:119
+msgid "Add another address"
+msgstr ""
+
+#: src/components/network/AddressesDataList.jsx:124
+msgid "Addresses"
+msgstr ""
+
+#: src/components/network/AddressesDataList.jsx:129
+msgid "Addresses data list"
+msgstr ""
+
+#. TRANSLATORS: table header
+#: src/components/network/ConnectionsTable.jsx:57
+#: src/components/network/ConnectionsTable.jsx:86
+msgid "Name"
+msgstr ""
+
+#. TRANSLATORS: table header
+#: src/components/network/ConnectionsTable.jsx:59
+#: src/components/network/ConnectionsTable.jsx:87
+msgid "IP addresses"
+msgstr ""
+
+#: src/components/network/ConnectionsTable.jsx:67
+msgid "Edit"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by a network connection name
+#: src/components/network/ConnectionsTable.jsx:70
+#, javascript-format
+msgid "Edit connection %s"
+msgstr ""
+
+#: src/components/network/ConnectionsTable.jsx:74
+msgid "Forget"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by a network connection name
+#: src/components/network/ConnectionsTable.jsx:77
+#, javascript-format
+msgid "Forget connection %s"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by a network connection name
+#: src/components/network/ConnectionsTable.jsx:92
+#, javascript-format
+msgid "Actions for connection %s"
+msgstr ""
+
+#. TRANSLATORS: input field name
+#: src/components/network/DnsDataList.jsx:78
+#: src/components/network/DnsDataList.jsx:79
+msgid "Server IP"
+msgstr ""
+
+#: src/components/network/DnsDataList.jsx:96
+msgid "Add DNS"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/network/DnsDataList.jsx:96
+msgid "Add another DNS"
+msgstr ""
+
+#: src/components/network/DnsDataList.jsx:101
+msgid "DNS"
+msgstr ""
+
+#. TRANSLATORS: input field name
+#: src/components/network/IpPrefixInput.jsx:33
+msgid "IP prefix or netmask"
+msgstr ""
+
+#. TRANSLATORS: error message
+#: src/components/network/IpSettingsForm.jsx:87
+msgid "At least one address must be provided for selected mode"
+msgstr ""
+
+#: src/components/network/IpSettingsForm.jsx:131
+#, javascript-format
+msgid "Edit %s connection"
+msgstr ""
+
+#. TRANSLATORS: network connection mode (automatic via DHCP or manual with static IP)
+#: src/components/network/IpSettingsForm.jsx:133
+#: src/components/network/IpSettingsForm.jsx:138
+#: src/components/network/IpSettingsForm.jsx:140
+msgid "Mode"
+msgstr ""
+
+#: src/components/network/IpSettingsForm.jsx:144
+msgid "Automatic (DHCP)"
+msgstr ""
+
+#. TRANSLATORS: manual network configuration mode with a static IP address
+#: src/components/network/IpSettingsForm.jsx:146
+msgid "Manual"
+msgstr ""
+
+#. TRANSLATORS: network gateway configuration
+#: src/components/network/IpSettingsForm.jsx:161
+#: src/components/network/IpSettingsForm.jsx:164
+msgid "Gateway"
+msgstr ""
+
+#: src/components/network/NetworkPage.jsx:53
+msgid ""
+"The system has not been configured for connecting to a WiFi network yet."
+msgstr ""
+
+#: src/components/network/NetworkPage.jsx:54
+msgid ""
+"The system does not support WiFi connections, probably because of missing or "
+"disabled hardware."
+msgstr ""
+
+#: src/components/network/NetworkPage.jsx:58
+msgid "No WiFi connections found"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/network/NetworkPage.jsx:70
+#: src/components/network/NetworkPageOptions.jsx:45
+#: src/components/network/WifiSelector.jsx:134
+msgid "Connect to a Wi-Fi network"
+msgstr ""
+
+#. TRANSLATORS: page title
+#. TRANSLATORS: page section title
+#: src/components/network/NetworkPage.jsx:170
+#: src/components/overview/NetworkSection.jsx:102
+msgid "Network"
+msgstr ""
+
+#. TRANSLATORS: page section
+#: src/components/network/NetworkPage.jsx:172
+msgid "Wired networks"
+msgstr ""
+
+#. TRANSLATORS: page section
+#: src/components/network/NetworkPage.jsx:177
+msgid "WiFi networks"
+msgstr ""
+
+#. TRANSLATORS: WiFi authentication mode
+#: src/components/network/WifiConnectionForm.jsx:42
+msgid "None"
+msgstr ""
+
+#. TRANSLATORS: WiFi authentication mode
+#: src/components/network/WifiConnectionForm.jsx:44
+msgid "WPA & WPA2 Personal"
+msgstr ""
+
+#: src/components/network/WifiConnectionForm.jsx:90
+msgid "Something went wrong"
+msgstr ""
+
+#: src/components/network/WifiConnectionForm.jsx:91
+msgid "Please, review provided settings and try again."
+msgstr ""
+
+#. TRANSLATORS: SSID (Wifi network name) configuration
+#: src/components/network/WifiConnectionForm.jsx:96
+#: src/components/network/WifiConnectionForm.jsx:100
+msgid "SSID"
+msgstr ""
+
+#. TRANSLATORS: Wifi security configuration (password protected or not)
+#: src/components/network/WifiConnectionForm.jsx:108
+#: src/components/network/WifiConnectionForm.jsx:111
+msgid "Security"
+msgstr ""
+
+#. TRANSLATORS: WiFi password
+#: src/components/network/WifiConnectionForm.jsx:120
+msgid "WPA Password"
+msgstr ""
+
+#. TRANSLATORS: button label, connect to a WiFi network
+#: src/components/network/WifiConnectionForm.jsx:134
+msgid "Connect"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/network/WifiConnectionForm.jsx:137
+msgid "Cancel"
+msgstr ""
+
+#. TRANSLATORS: button label
+#: src/components/network/WifiHiddenNetworkForm.jsx:50
+msgid "Connect to hidden network"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by a WiFi network name
+#: src/components/network/WifiNetworkListItem.jsx:93
+#, javascript-format
+msgid "%s connection is waiting for an state change"
+msgstr ""
+
+#: src/components/network/WifiNetworkListItem.jsx:95
+msgid "Connecting"
+msgstr ""
+
+#. TRANSLATORS: menu label, remove the selected WiFi network settings
+#: src/components/network/WifiNetworkMenu.jsx:45
+msgid "Forget network"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by a language name and code,
+#. example: "English (en_US.UTF-8)"
+#: src/components/overview/L10nSection.jsx:70
+#, javascript-format
+msgid "The system will use %s as its default language."
+msgstr ""
+
+#: src/components/overview/NetworkSection.jsx:78
+msgid "No network connections detected"
+msgstr ""
+
+#. TRANSLATORS: header for the list of active network connections,
+#. %d is replaced by the number of active connections
+#: src/components/overview/NetworkSection.jsx:87
+#, javascript-format
+msgid "%d connection set:"
+msgid_plural "%d connections set:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: src/components/overview/SoftwareSection.jsx:36
+msgid "Reading software repositories"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by the estimated installation size,
+#. example: "728.8 MiB"
+#: src/components/overview/SoftwareSection.jsx:120
+#, javascript-format
+msgid "Installation will take %s"
+msgstr ""
+
+#. TRANSLATORS: clickable link label
+#: src/components/overview/SoftwareSection.jsx:145
+msgid "Refresh the repositories"
+msgstr ""
+
+#. TRANSLATORS: page section
+#: src/components/overview/SoftwareSection.jsx:155
+msgid "Software"
+msgstr ""
+
+#: src/components/overview/StorageSection.jsx:35
+msgid "Device not selected yet"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by the device name and its size,
+#. example: "/dev/sda, 20 GiB"
+#: src/components/overview/StorageSection.jsx:44
+#, javascript-format
+msgid "Install using device %s and deleting all its content"
+msgstr ""
+
+#: src/components/overview/StorageSection.jsx:56
+msgid "Probing storage devices"
+msgstr ""
+
+#. TRANSLATORS: page section title
+#: src/components/overview/StorageSection.jsx:164
+msgid "Storage"
+msgstr ""
+
+#. TRANSLATORS: %s will be replaced by the user name
+#: src/components/overview/UsersSection.jsx:80
+#, javascript-format
+msgid "User %s will be created"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:87
+msgid "No user defined yet"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:101
+msgid "Root authentication set for using both, password and public SSH Key"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:102
+msgid "No root authentication method defined"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:103
+msgid "Root authentication set for using password"
+msgstr ""
+
+#: src/components/overview/UsersSection.jsx:104
+msgid "Root authentication set for using public SSH Key"
+msgstr ""
+
+#. TRANSLATORS: page section title
+#: src/components/overview/UsersSection.jsx:120
+msgid "Users"
+msgstr ""
