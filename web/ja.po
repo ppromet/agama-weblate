@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 15:00+0000\n"
+"POT-Creation-Date: 2023-08-30 02:05+0000\n"
 "PO-Revision-Date: 2023-08-29 01:29+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -31,8 +31,9 @@ msgid ""
 "want to give it a try, we recommend to use a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
-"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上にある仕組みですので、本番環境での使用はご遠慮ください。なお"
-"、お試しになりたい場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
+"Agama は (open)SUSE システム向けの実験中インストーラです。現在もなお開発途上"
+"にある仕組みですので、本番環境での使用はご遠慮ください。なお、お試しになりた"
+"い場合は、仮想マシン内で実行して不用意なデータ喪失を防ぐことをお勧めします。"
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
@@ -62,7 +63,9 @@ msgstr "ファイルを読み込めません"
 msgid ""
 "There are some reported issues. Please, check {the list of issues} before "
 "proceeding with the installation."
-msgstr "いくつかの問題が見つかっています。インストールを続行する前に、 {問題点の一覧} をご確認ください。"
+msgstr ""
+"いくつかの問題が見つかっています。インストールを続行する前に、 {問題点の一"
+"覧} をご確認ください。"
 
 #: src/components/core/InstallButton.jsx:60
 msgid "Confirm Installation"
@@ -70,7 +73,8 @@ msgstr "インストールの確認"
 
 #: src/components/core/InstallButton.jsx:70
 msgid "Please, cancel and check the settings if you are unsure."
-msgstr "何か不安な点があれば、キャンセルして設定を確認しておくことをお勧めします。"
+msgstr ""
+"何か不安な点があれば、キャンセルして設定を確認しておくことをお勧めします。"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:76
@@ -139,7 +143,8 @@ msgstr "新しい問題点があります"
 
 #: src/components/core/IssuesPage.jsx:115
 msgid "No issues found. Everything looks ok."
-msgstr "問題点は見つかりませんでした。インストールに支障はないものと思われます。"
+msgstr ""
+"問題点は見つかりませんでした。インストールに支障はないものと思われます。"
 
 #: src/components/core/LogsButton.jsx:98
 msgid "Collecting logs..."
@@ -153,7 +158,9 @@ msgstr "ログのダウンロード"
 msgid ""
 "The browser will run the logs download as soon as they are ready. Please, be "
 "patient."
-msgstr "ログの収集が完了すると、ブラウザ側でダウンロード処理が始まります。しばらくお待ちください。"
+msgstr ""
+"ログの収集が完了すると、ブラウザ側でダウンロード処理が始まります。しばらくお"
+"待ちください。"
 
 #: src/components/core/LogsButton.jsx:114
 msgid "Something went wrong while collecting logs. Please, try again."
@@ -166,6 +173,10 @@ msgstr "パスワードが合致しません"
 #: src/components/core/PasswordAndConfirmationInput.jsx:58
 #: src/components/network/WifiConnectionForm.jsx:124
 #: src/components/network/WifiConnectionForm.jsx:126
+#: src/components/storage/iscsi/AuthFields.jsx:96
+#: src/components/storage/iscsi/AuthFields.jsx:104
+#: src/components/storage/iscsi/AuthFields.jsx:106
+#: src/components/storage/iscsi/AuthFields.jsx:143
 msgid "Password"
 msgstr "パスワード"
 
@@ -269,7 +280,9 @@ msgstr "D-Bus に接続できません"
 #: src/components/layout/DBusError.jsx:56
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
-msgstr "D-Bus サービスに接続できませんでした。 D-Bus サービスが動作中かどうかをご確認ください。"
+msgstr ""
+"D-Bus サービスに接続できませんでした。 D-Bus サービスが動作中かどうかをご確認"
+"ください。"
 
 #: src/components/layout/Loading.jsx:28
 msgid "Loading installation environment, please wait."
@@ -311,9 +324,15 @@ msgstr "アドレス"
 msgid "Addresses data list"
 msgstr "アドレスデータの一覧"
 
+#. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
+#: src/components/storage/iscsi/InitiatorForm.jsx:52
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:68
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:85
+#: src/components/storage/iscsi/NodesPresenter.jsx:100
+#: src/components/storage/iscsi/NodesPresenter.jsx:121
 msgid "Name"
 msgstr "名前"
 
@@ -324,6 +343,8 @@ msgid "IP addresses"
 msgstr "IP アドレス"
 
 #: src/components/network/ConnectionsTable.jsx:67
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:49
+#: src/components/storage/iscsi/NodesPresenter.jsx:73
 msgid "Edit"
 msgstr "編集"
 
@@ -376,7 +397,8 @@ msgstr "IP プレフィクスもしくはサブネットマスク"
 #. TRANSLATORS: error message
 #: src/components/network/IpSettingsForm.jsx:87
 msgid "At least one address must be provided for selected mode"
-msgstr "選択しているモードの場合、 1 つ以上のアドレスを設定しなければなりません"
+msgstr ""
+"選択しているモードの場合、 1 つ以上のアドレスを設定しなければなりません"
 
 #: src/components/network/IpSettingsForm.jsx:131
 #, javascript-format
@@ -396,6 +418,7 @@ msgstr "自動 (DHCP)"
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
 #: src/components/network/IpSettingsForm.jsx:146
+#: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
 msgstr "手動"
 
@@ -408,13 +431,16 @@ msgstr "ゲートウエイ"
 #: src/components/network/NetworkPage.jsx:53
 msgid ""
 "The system has not been configured for connecting to a WiFi network yet."
-msgstr "このシステムでは、まだ WiFi ネットワークへの接続設定を実施していません。"
+msgstr ""
+"このシステムでは、まだ WiFi ネットワークへの接続設定を実施していません。"
 
 #: src/components/network/NetworkPage.jsx:54
 msgid ""
 "The system does not support WiFi connections, probably because of missing or "
 "disabled hardware."
-msgstr "このシステムは WiFi 接続には対応していません。無線ハードウエアが存在していないか、無効化されているものと思われます。"
+msgstr ""
+"このシステムは WiFi 接続には対応していません。無線ハードウエアが存在していな"
+"いか、無効化されているものと思われます。"
 
 #: src/components/network/NetworkPage.jsx:58
 msgid "No WiFi connections found"
@@ -446,6 +472,7 @@ msgstr "WiFi ネットワーク"
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:42
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 msgid "None"
 msgstr "無し"
 
@@ -455,6 +482,8 @@ msgid "WPA & WPA2 Personal"
 msgstr "WPA および WPA2 Personal"
 
 #: src/components/network/WifiConnectionForm.jsx:90
+#: src/components/storage/iscsi/DiscoverForm.jsx:108
+#: src/components/storage/iscsi/LoginForm.jsx:72
 msgid "Something went wrong"
 msgstr "何らかの問題が発生しました"
 
@@ -640,3 +669,215 @@ msgstr "選択"
 #: src/components/software/ProductSelectionPage.jsx:103
 msgid "Choose a product"
 msgstr "製品を選択してください"
+
+#: src/components/storage/iscsi/AuthFields.jsx:70
+msgid "Only available if authentication by target is provided"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:77
+msgid "Authentication by target"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:80
+#: src/components/storage/iscsi/AuthFields.jsx:87
+#: src/components/storage/iscsi/AuthFields.jsx:89
+#: src/components/storage/iscsi/AuthFields.jsx:116
+#: src/components/storage/iscsi/AuthFields.jsx:123
+#: src/components/storage/iscsi/AuthFields.jsx:125
+msgid "User name"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:81
+#: src/components/storage/iscsi/AuthFields.jsx:117
+msgid "Incorrect user name"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:97
+#: src/components/storage/iscsi/AuthFields.jsx:134
+#, fuzzy
+#| msgid "Encryption Password"
+msgid "Incorrect password"
+msgstr "暗号化パスワード"
+
+#: src/components/storage/iscsi/AuthFields.jsx:112
+msgid "Authentication by initiator"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:141
+#, fuzzy
+#| msgid "Password"
+msgid "Target Password"
+msgstr "パスワード"
+
+#. TRANSLATORS: popup title
+#: src/components/storage/iscsi/DiscoverForm.jsx:101
+msgid "Discover iSCSI Targets"
+msgstr ""
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:110
+#: src/components/storage/iscsi/LoginForm.jsx:73
+msgid "Make sure you provide the correct values"
+msgstr ""
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:115
+#, fuzzy
+#| msgid "IP addresses"
+msgid "IP address"
+msgstr "IP アドレス"
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:117
+#, fuzzy
+#| msgid "IP addresses"
+msgid "Incorrect IP address"
+msgstr "IP アドレス"
+
+#. TRANSLATORS: network address
+#: src/components/storage/iscsi/DiscoverForm.jsx:124
+#: src/components/storage/iscsi/DiscoverForm.jsx:126
+#, fuzzy
+#| msgid "Addresses"
+msgid "Address"
+msgstr "アドレス"
+
+#. TRANSLATORS: network port number
+#: src/components/storage/iscsi/DiscoverForm.jsx:134
+#: src/components/storage/iscsi/DiscoverForm.jsx:143
+#: src/components/storage/iscsi/DiscoverForm.jsx:145
+msgid "Port"
+msgstr ""
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:136
+msgid "Incorrect port"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by the iSCSI target node name
+#: src/components/storage/iscsi/EditNodeForm.jsx:50
+#, fuzzy, javascript-format
+#| msgid "Edit"
+msgid "Edit %s"
+msgstr "編集"
+
+#: src/components/storage/iscsi/InitiatorForm.jsx:42
+msgid "Edit iSCSI Initiator"
+msgstr ""
+
+#. TRANSLATORS: iSCSI initiator name
+#: src/components/storage/iscsi/InitiatorForm.jsx:49
+msgid "Initiator name"
+msgstr ""
+
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:71
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+#, fuzzy
+#| msgid "None"
+msgid "No"
+msgstr "無し"
+
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:71
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+msgid "Yes"
+msgstr ""
+
+#. TRANSLATORS: usually just keep the original text
+#. iBFT = iSCSI Boot Firmware Table, HW support for booting from iSCSI
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:71
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:86
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+#: src/components/storage/iscsi/NodesPresenter.jsx:124
+msgid "iBFT"
+msgstr ""
+
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:72
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:87
+msgid "Offload card"
+msgstr ""
+
+#. TRANSLATORS: iSCSI initiator section name
+#: src/components/storage/iscsi/InitiatorSection.jsx:50
+msgid "Initiator"
+msgstr ""
+
+#. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
+#: src/components/storage/iscsi/LoginForm.jsx:76
+#: src/components/storage/iscsi/LoginForm.jsx:79
+msgid "Startup"
+msgstr ""
+
+#: src/components/storage/iscsi/NodeStartupOptions.js:26
+#, fuzzy
+#| msgid "Reboot"
+msgid "On boot"
+msgstr "再起動"
+
+#: src/components/storage/iscsi/NodeStartupOptions.js:27
+#, fuzzy
+#| msgid "Automatic (DHCP)"
+msgid "Automatic"
+msgstr "自動 (DHCP)"
+
+#. TRANSLATORS: iSCSI connection status
+#: src/components/storage/iscsi/NodesPresenter.jsx:63
+#, fuzzy
+#| msgid "Connect"
+msgid "Disconnected"
+msgstr "接続"
+
+#. TRANSLATORS: iSCSI connection status, %s is replaced by node label
+#: src/components/storage/iscsi/NodesPresenter.jsx:67
+#, fuzzy, javascript-format
+#| msgid "Connect"
+msgid "Connected (%s)"
+msgstr "接続"
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:77
+msgid "Delete"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:82
+msgid "Login"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:86
+msgid "Logout"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:101
+#: src/components/storage/iscsi/NodesPresenter.jsx:122
+msgid "Portal"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:102
+#: src/components/storage/iscsi/NodesPresenter.jsx:123
+msgid "Interface"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:104
+#: src/components/storage/iscsi/NodesPresenter.jsx:125
+msgid "Status"
+msgstr ""
+
+#: src/components/storage/iscsi/TargetsSection.jsx:139
+msgid "No iSCSI targets found"
+msgstr ""
+
+#: src/components/storage/iscsi/TargetsSection.jsx:140
+msgid ""
+"Please, perform an iSCSI discovery in order to find available iSCSI targets."
+msgstr ""
+
+#. TRANSLATORS: button label, starts iSCSI discovery
+#: src/components/storage/iscsi/TargetsSection.jsx:142
+msgid "Discover iSCSI targets"
+msgstr ""
+
+#. TRANSLATORS: button label, starts iSCSI discovery
+#: src/components/storage/iscsi/TargetsSection.jsx:153
+msgid "Discover"
+msgstr ""
+
+#. TRANSLATORS: iSCSI targets section title
+#: src/components/storage/iscsi/TargetsSection.jsx:167
+#, fuzzy
+#| msgid "Forget"
+msgid "Targets"
+msgstr "削除"

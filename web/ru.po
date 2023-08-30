@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-28 15:00+0000\n"
+"POT-Creation-Date: 2023-08-30 02:05+0000\n"
 "PO-Revision-Date: 2023-08-06 21:15+0000\n"
 "Last-Translator: Milachew <milachew@mail.lv>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -165,6 +165,10 @@ msgstr ""
 #: src/components/core/PasswordAndConfirmationInput.jsx:58
 #: src/components/network/WifiConnectionForm.jsx:124
 #: src/components/network/WifiConnectionForm.jsx:126
+#: src/components/storage/iscsi/AuthFields.jsx:96
+#: src/components/storage/iscsi/AuthFields.jsx:104
+#: src/components/storage/iscsi/AuthFields.jsx:106
+#: src/components/storage/iscsi/AuthFields.jsx:143
 msgid "Password"
 msgstr ""
 
@@ -312,9 +316,15 @@ msgstr ""
 msgid "Addresses data list"
 msgstr ""
 
+#. TRANSLATORS: input field for the iSCSI initiator name
 #. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
+#: src/components/storage/iscsi/InitiatorForm.jsx:52
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:68
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:85
+#: src/components/storage/iscsi/NodesPresenter.jsx:100
+#: src/components/storage/iscsi/NodesPresenter.jsx:121
 msgid "Name"
 msgstr ""
 
@@ -325,6 +335,8 @@ msgid "IP addresses"
 msgstr ""
 
 #: src/components/network/ConnectionsTable.jsx:67
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:49
+#: src/components/storage/iscsi/NodesPresenter.jsx:73
 msgid "Edit"
 msgstr ""
 
@@ -397,6 +409,7 @@ msgstr ""
 
 #. TRANSLATORS: manual network configuration mode with a static IP address
 #: src/components/network/IpSettingsForm.jsx:146
+#: src/components/storage/iscsi/NodeStartupOptions.js:25
 msgid "Manual"
 msgstr ""
 
@@ -447,6 +460,7 @@ msgstr ""
 
 #. TRANSLATORS: WiFi authentication mode
 #: src/components/network/WifiConnectionForm.jsx:42
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 msgid "None"
 msgstr ""
 
@@ -456,6 +470,8 @@ msgid "WPA & WPA2 Personal"
 msgstr ""
 
 #: src/components/network/WifiConnectionForm.jsx:90
+#: src/components/storage/iscsi/DiscoverForm.jsx:108
+#: src/components/storage/iscsi/LoginForm.jsx:72
 msgid "Something went wrong"
 msgstr ""
 
@@ -642,4 +658,194 @@ msgstr ""
 
 #: src/components/software/ProductSelectionPage.jsx:103
 msgid "Choose a product"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:70
+msgid "Only available if authentication by target is provided"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:77
+msgid "Authentication by target"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:80
+#: src/components/storage/iscsi/AuthFields.jsx:87
+#: src/components/storage/iscsi/AuthFields.jsx:89
+#: src/components/storage/iscsi/AuthFields.jsx:116
+#: src/components/storage/iscsi/AuthFields.jsx:123
+#: src/components/storage/iscsi/AuthFields.jsx:125
+msgid "User name"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:81
+#: src/components/storage/iscsi/AuthFields.jsx:117
+msgid "Incorrect user name"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:97
+#: src/components/storage/iscsi/AuthFields.jsx:134
+msgid "Incorrect password"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:112
+msgid "Authentication by initiator"
+msgstr ""
+
+#: src/components/storage/iscsi/AuthFields.jsx:141
+msgid "Target Password"
+msgstr ""
+
+#. TRANSLATORS: popup title
+#: src/components/storage/iscsi/DiscoverForm.jsx:101
+msgid "Discover iSCSI Targets"
+msgstr ""
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:110
+#: src/components/storage/iscsi/LoginForm.jsx:73
+msgid "Make sure you provide the correct values"
+msgstr ""
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:115
+msgid "IP address"
+msgstr ""
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:117
+msgid "Incorrect IP address"
+msgstr ""
+
+#. TRANSLATORS: network address
+#: src/components/storage/iscsi/DiscoverForm.jsx:124
+#: src/components/storage/iscsi/DiscoverForm.jsx:126
+msgid "Address"
+msgstr ""
+
+#. TRANSLATORS: network port number
+#: src/components/storage/iscsi/DiscoverForm.jsx:134
+#: src/components/storage/iscsi/DiscoverForm.jsx:143
+#: src/components/storage/iscsi/DiscoverForm.jsx:145
+msgid "Port"
+msgstr ""
+
+#: src/components/storage/iscsi/DiscoverForm.jsx:136
+msgid "Incorrect port"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by the iSCSI target node name
+#: src/components/storage/iscsi/EditNodeForm.jsx:50
+#, javascript-format
+msgid "Edit %s"
+msgstr ""
+
+#: src/components/storage/iscsi/InitiatorForm.jsx:42
+msgid "Edit iSCSI Initiator"
+msgstr ""
+
+#. TRANSLATORS: iSCSI initiator name
+#: src/components/storage/iscsi/InitiatorForm.jsx:49
+msgid "Initiator name"
+msgstr ""
+
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:71
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+msgid "No"
+msgstr ""
+
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:71
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+msgid "Yes"
+msgstr ""
+
+#. TRANSLATORS: usually just keep the original text
+#. iBFT = iSCSI Boot Firmware Table, HW support for booting from iSCSI
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:71
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:86
+#: src/components/storage/iscsi/NodesPresenter.jsx:103
+#: src/components/storage/iscsi/NodesPresenter.jsx:124
+msgid "iBFT"
+msgstr ""
+
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:72
+#: src/components/storage/iscsi/InitiatorPresenter.jsx:87
+msgid "Offload card"
+msgstr ""
+
+#. TRANSLATORS: iSCSI initiator section name
+#: src/components/storage/iscsi/InitiatorSection.jsx:50
+msgid "Initiator"
+msgstr ""
+
+#. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
+#: src/components/storage/iscsi/LoginForm.jsx:76
+#: src/components/storage/iscsi/LoginForm.jsx:79
+msgid "Startup"
+msgstr ""
+
+#: src/components/storage/iscsi/NodeStartupOptions.js:26
+msgid "On boot"
+msgstr ""
+
+#: src/components/storage/iscsi/NodeStartupOptions.js:27
+msgid "Automatic"
+msgstr ""
+
+#. TRANSLATORS: iSCSI connection status
+#: src/components/storage/iscsi/NodesPresenter.jsx:63
+msgid "Disconnected"
+msgstr ""
+
+#. TRANSLATORS: iSCSI connection status, %s is replaced by node label
+#: src/components/storage/iscsi/NodesPresenter.jsx:67
+#, javascript-format
+msgid "Connected (%s)"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:77
+msgid "Delete"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:82
+msgid "Login"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:86
+msgid "Logout"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:101
+#: src/components/storage/iscsi/NodesPresenter.jsx:122
+msgid "Portal"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:102
+#: src/components/storage/iscsi/NodesPresenter.jsx:123
+msgid "Interface"
+msgstr ""
+
+#: src/components/storage/iscsi/NodesPresenter.jsx:104
+#: src/components/storage/iscsi/NodesPresenter.jsx:125
+msgid "Status"
+msgstr ""
+
+#: src/components/storage/iscsi/TargetsSection.jsx:139
+msgid "No iSCSI targets found"
+msgstr ""
+
+#: src/components/storage/iscsi/TargetsSection.jsx:140
+msgid ""
+"Please, perform an iSCSI discovery in order to find available iSCSI targets."
+msgstr ""
+
+#. TRANSLATORS: button label, starts iSCSI discovery
+#: src/components/storage/iscsi/TargetsSection.jsx:142
+msgid "Discover iSCSI targets"
+msgstr ""
+
+#. TRANSLATORS: button label, starts iSCSI discovery
+#: src/components/storage/iscsi/TargetsSection.jsx:153
+msgid "Discover"
+msgstr ""
+
+#. TRANSLATORS: iSCSI targets section title
+#: src/components/storage/iscsi/TargetsSection.jsx:167
+msgid "Targets"
 msgstr ""
