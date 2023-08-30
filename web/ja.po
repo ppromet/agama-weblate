@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 02:05+0000\n"
-"PO-Revision-Date: 2023-08-29 01:29+0000\n"
+"PO-Revision-Date: 2023-08-30 06:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -672,11 +672,11 @@ msgstr "製品を選択してください"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
-msgstr ""
+msgstr "ターゲットによる認証を指定した場合にのみ利用できます"
 
 #: src/components/storage/iscsi/AuthFields.jsx:77
 msgid "Authentication by target"
-msgstr ""
+msgstr "ターゲットによる認証"
 
 #: src/components/storage/iscsi/AuthFields.jsx:80
 #: src/components/storage/iscsi/AuthFields.jsx:87
@@ -685,57 +685,47 @@ msgstr ""
 #: src/components/storage/iscsi/AuthFields.jsx:123
 #: src/components/storage/iscsi/AuthFields.jsx:125
 msgid "User name"
-msgstr ""
+msgstr "ユーザ名"
 
 #: src/components/storage/iscsi/AuthFields.jsx:81
 #: src/components/storage/iscsi/AuthFields.jsx:117
 msgid "Incorrect user name"
-msgstr ""
+msgstr "ユーザ名が正しくありません"
 
 #: src/components/storage/iscsi/AuthFields.jsx:97
 #: src/components/storage/iscsi/AuthFields.jsx:134
-#, fuzzy
-#| msgid "Encryption Password"
 msgid "Incorrect password"
-msgstr "暗号化パスワード"
+msgstr "パスワードが正しくありません"
 
 #: src/components/storage/iscsi/AuthFields.jsx:112
 msgid "Authentication by initiator"
-msgstr ""
+msgstr "イニシエータによる認証"
 
 #: src/components/storage/iscsi/AuthFields.jsx:141
-#, fuzzy
-#| msgid "Password"
 msgid "Target Password"
-msgstr "パスワード"
+msgstr "ターゲットのパスワード"
 
 #. TRANSLATORS: popup title
 #: src/components/storage/iscsi/DiscoverForm.jsx:101
 msgid "Discover iSCSI Targets"
-msgstr ""
+msgstr "iSCSI ターゲットの検出"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:110
 #: src/components/storage/iscsi/LoginForm.jsx:73
 msgid "Make sure you provide the correct values"
-msgstr ""
+msgstr "正しい値を設定しているかどうかご確認ください"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:115
-#, fuzzy
-#| msgid "IP addresses"
 msgid "IP address"
 msgstr "IP アドレス"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:117
-#, fuzzy
-#| msgid "IP addresses"
 msgid "Incorrect IP address"
-msgstr "IP アドレス"
+msgstr "IP アドレスが正しくありません"
 
 #. TRANSLATORS: network address
 #: src/components/storage/iscsi/DiscoverForm.jsx:124
 #: src/components/storage/iscsi/DiscoverForm.jsx:126
-#, fuzzy
-#| msgid "Addresses"
 msgid "Address"
 msgstr "アドレス"
 
@@ -744,39 +734,36 @@ msgstr "アドレス"
 #: src/components/storage/iscsi/DiscoverForm.jsx:143
 #: src/components/storage/iscsi/DiscoverForm.jsx:145
 msgid "Port"
-msgstr ""
+msgstr "ポート"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:136
 msgid "Incorrect port"
-msgstr ""
+msgstr "ポートが正しくありません"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
 #: src/components/storage/iscsi/EditNodeForm.jsx:50
-#, fuzzy, javascript-format
-#| msgid "Edit"
+#, javascript-format
 msgid "Edit %s"
-msgstr "編集"
+msgstr "%s の編集"
 
 #: src/components/storage/iscsi/InitiatorForm.jsx:42
 msgid "Edit iSCSI Initiator"
-msgstr ""
+msgstr "iSCSI イニシエータの編集"
 
 #. TRANSLATORS: iSCSI initiator name
 #: src/components/storage/iscsi/InitiatorForm.jsx:49
 msgid "Initiator name"
-msgstr ""
+msgstr "イニシエータ名"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
-#, fuzzy
-#| msgid "None"
 msgid "No"
-msgstr "無し"
+msgstr "いいえ"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #. TRANSLATORS: usually just keep the original text
 #. iBFT = iSCSI Boot Firmware Table, HW support for booting from iSCSI
@@ -785,99 +772,90 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 #: src/components/storage/iscsi/NodesPresenter.jsx:124
 msgid "iBFT"
-msgstr ""
+msgstr "iBFT"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:87
 msgid "Offload card"
-msgstr ""
+msgstr "オフロードカード"
 
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:50
 msgid "Initiator"
-msgstr ""
+msgstr "イニシエータ"
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
 #: src/components/storage/iscsi/LoginForm.jsx:76
 #: src/components/storage/iscsi/LoginForm.jsx:79
 msgid "Startup"
-msgstr ""
+msgstr "起動"
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:26
-#, fuzzy
-#| msgid "Reboot"
 msgid "On boot"
-msgstr "再起動"
+msgstr "システム起動時"
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:27
-#, fuzzy
-#| msgid "Automatic (DHCP)"
 msgid "Automatic"
-msgstr "自動 (DHCP)"
+msgstr "自動"
 
 #. TRANSLATORS: iSCSI connection status
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
-#, fuzzy
-#| msgid "Connect"
 msgid "Disconnected"
-msgstr "接続"
+msgstr "切断済み"
 
 #. TRANSLATORS: iSCSI connection status, %s is replaced by node label
 #: src/components/storage/iscsi/NodesPresenter.jsx:67
-#, fuzzy, javascript-format
-#| msgid "Connect"
+#, javascript-format
 msgid "Connected (%s)"
-msgstr "接続"
+msgstr "接続済み (%s)"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:82
 msgid "Login"
-msgstr ""
+msgstr "ログイン"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:86
 msgid "Logout"
-msgstr ""
+msgstr "ログアウト"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:101
 #: src/components/storage/iscsi/NodesPresenter.jsx:122
 msgid "Portal"
-msgstr ""
+msgstr "ポータル"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:102
 #: src/components/storage/iscsi/NodesPresenter.jsx:123
 msgid "Interface"
-msgstr ""
+msgstr "インターフェイス"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:104
 #: src/components/storage/iscsi/NodesPresenter.jsx:125
 msgid "Status"
-msgstr ""
+msgstr "状態"
 
 #: src/components/storage/iscsi/TargetsSection.jsx:139
 msgid "No iSCSI targets found"
-msgstr ""
+msgstr "iSCSI ターゲットが見つかりませんでした"
 
 #: src/components/storage/iscsi/TargetsSection.jsx:140
 msgid ""
 "Please, perform an iSCSI discovery in order to find available iSCSI targets."
-msgstr ""
+msgstr "利用可能な iSCSI ターゲットを検出するため、 iSCSI 検索を実施してください。"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:142
 msgid "Discover iSCSI targets"
-msgstr ""
+msgstr "iSCSI ターゲットの検索"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:153
 msgid "Discover"
-msgstr ""
+msgstr "検索"
 
 #. TRANSLATORS: iSCSI targets section title
 #: src/components/storage/iscsi/TargetsSection.jsx:167
-#, fuzzy
-#| msgid "Forget"
 msgid "Targets"
-msgstr "削除"
+msgstr "ターゲット"
