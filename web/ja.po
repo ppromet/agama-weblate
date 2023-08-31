@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-30 14:44+0000\n"
-"PO-Revision-Date: 2023-08-31 01:15+0000\n"
+"PO-Revision-Date: 2023-08-31 11:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -948,64 +948,60 @@ msgstr "設定"
 #. TRANSLATORS: header for a list of items
 #: src/components/storage/ProposalVolumes.jsx:56
 msgid "These limits are affected by:"
-msgstr ""
+msgstr "これらの制限は下記による影響を受けます:"
 
 #. TRANSLATORS: list item, this affects the computed partition size limits
 #: src/components/storage/ProposalVolumes.jsx:60
 msgid "The configuration of snapshots"
-msgstr ""
+msgstr "スナップショットの設定"
 
 #. TRANSLATORS: list item, this affects the computed partition size limits
 #. %s is replaced by a list of the volumes (like "/home, /boot")
 #: src/components/storage/ProposalVolumes.jsx:64
 #, javascript-format
 msgid "Presence of other volumes (%s)"
-msgstr ""
+msgstr "その他のボリューム (%s) の存在"
 
 #. TRANSLATORS: dropdown menu label
 #: src/components/storage/ProposalVolumes.jsx:119
 msgid "Reset to defaults"
-msgstr ""
+msgstr "規定値に戻す"
 
 #. TRANSLATORS: dropdown menu label
 #: src/components/storage/ProposalVolumes.jsx:127
 #: src/components/storage/ProposalVolumes.jsx:137
 msgid "Add file system"
-msgstr ""
+msgstr "ファイルシステムの追加"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/ProposalVolumes.jsx:186
 #, javascript-format
 msgid "At least %s"
-msgstr ""
+msgstr "少なくとも %s"
 
 #. TRANSLATORS: device flag, the partition size is automatically computed
 #: src/components/storage/ProposalVolumes.jsx:192
 msgid "auto"
-msgstr ""
+msgstr "自動"
 
 #. TRANSLATORS: the filesystem uses a logical volume (LVM)
 #: src/components/storage/ProposalVolumes.jsx:202
 msgid "logical volume"
-msgstr ""
+msgstr "論理ボリューム"
 
 #: src/components/storage/ProposalVolumes.jsx:202
-#, fuzzy
-#| msgid "Options"
 msgid "partition"
-msgstr "オプション"
+msgstr "パーティション"
 
 #. TRANSLATORS: filesystem flag, it uses an encryption
 #: src/components/storage/ProposalVolumes.jsx:210
-#, fuzzy
-#| msgid "Encrypted Device"
 msgid "encrypted"
-msgstr "暗号化されたデバイス"
+msgstr "暗号化"
 
 #. TRANSLATORS: filesystem flag, it allows creating snapshots
 #: src/components/storage/ProposalVolumes.jsx:212
 msgid "with snapshots"
-msgstr ""
+msgstr "スナップショット有り"
 
 #: src/components/storage/ProposalVolumes.jsx:221
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
@@ -1014,76 +1010,76 @@ msgstr "削除"
 
 #: src/components/storage/ProposalVolumes.jsx:267
 msgid "Edit file system"
-msgstr ""
+msgstr "ファイルシステムの編集"
 
 #: src/components/storage/ProposalVolumes.jsx:298
 #: src/components/storage/VolumeForm.jsx:490
 msgid "Mount point"
-msgstr ""
+msgstr "マウントポイント"
 
 #: src/components/storage/ProposalVolumes.jsx:299
 msgid "Details"
-msgstr ""
+msgstr "詳細"
 
 #: src/components/storage/ProposalVolumes.jsx:300
 #: src/components/storage/VolumeForm.jsx:507
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: src/components/storage/ProposalVolumes.jsx:335
 msgid "Table with mount points"
-msgstr ""
+msgstr "マウントポイントの一覧"
 
 #: src/components/storage/ProposalVolumes.jsx:391
 msgid "File systems to create in your system"
-msgstr ""
+msgstr "お使いのシステム内で作成するファイルシステム"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeForm.jsx:96
 msgid "the configuration of snapshots"
-msgstr ""
+msgstr "スナップショットの設定"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #. %s is replaced by a list of mount points like "/home, /boot"
 #: src/components/storage/VolumeForm.jsx:101
 #, javascript-format
 msgid "the presence of the file system for %s"
-msgstr ""
+msgstr "%s に対するファイルシステムの存在"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeForm.jsx:103
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
 #: src/components/storage/VolumeForm.jsx:106
 #, javascript-format
 msgid "The final size depends on %s."
-msgstr ""
+msgstr "最終的なサイズは %s に依存します。"
 
 #. TRANSLATORS: conjunction for merging two texts
 #: src/components/storage/VolumeForm.jsx:108
 msgid " and "
-msgstr ""
+msgstr " および "
 
 #. TRANSLATORS: the partition size is automatically computed
 #: src/components/storage/VolumeForm.jsx:113
 msgid "Automatically calculated size according to the selected product."
-msgstr ""
+msgstr "選択した製品から自動計算したサイズです。"
 
 #: src/components/storage/VolumeForm.jsx:133
 msgid "Exact size for the file system."
-msgstr ""
+msgstr "ファイルシステムに対する正確なサイズです。"
 
 #. TRANSLATORS: requested partition size
 #: src/components/storage/VolumeForm.jsx:146
 msgid "Exact size"
-msgstr ""
+msgstr "正確なサイズ"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
 #: src/components/storage/VolumeForm.jsx:159
 msgid "Size unit"
-msgstr ""
+msgstr "サイズの単位"
 
 #: src/components/storage/VolumeForm.jsx:185
 msgid ""
@@ -1091,110 +1087,108 @@ msgid ""
 "given minimum and maximum. If no maximum is given then the file system will "
 "be as big as possible."
 msgstr ""
+"ファイルシステムに対するサイズ制限です。最終的なサイズは最小値と最大値の間になります。最大値を指定しない場合、ファイルシステムはできる限り大きくなるように"
+"設定されます。"
 
 #. TRANSLATORS: the minimal partition size
 #: src/components/storage/VolumeForm.jsx:192
 msgid "Minimum"
-msgstr ""
+msgstr "最小"
 
 #. TRANSLATORS: the minium partition size
 #: src/components/storage/VolumeForm.jsx:203
 msgid "Minimum desired size"
-msgstr ""
+msgstr "最小必須サイズ"
 
 #: src/components/storage/VolumeForm.jsx:210
 msgid "Unit for the minimum size"
-msgstr ""
+msgstr "最小サイズの単位"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeForm.jsx:219
 msgid "Maximum"
-msgstr ""
+msgstr "最大"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeForm.jsx:231
 msgid "Maximum desired size"
-msgstr ""
+msgstr "最大要求サイズ"
 
 #: src/components/storage/VolumeForm.jsx:238
 msgid "Unit for the maximum size"
-msgstr ""
+msgstr "最大サイズの単位"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
 #: src/components/storage/VolumeForm.jsx:253
-#, fuzzy
-#| msgid "Automatic"
 msgid "Auto"
 msgstr "自動"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
 #: src/components/storage/VolumeForm.jsx:255
 msgid "Fixed"
-msgstr ""
+msgstr "固定値"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
 #: src/components/storage/VolumeForm.jsx:257
 msgid "Range"
-msgstr ""
+msgstr "範囲"
 
 #: src/components/storage/VolumeForm.jsx:460
 msgid "A size value is required"
-msgstr ""
+msgstr "サイズを指定する必要があります"
 
 #: src/components/storage/VolumeForm.jsx:465
 msgid "Minimum size is required"
-msgstr ""
+msgstr "最小サイズを指定する必要があります"
 
 #: src/components/storage/VolumeForm.jsx:469
 msgid "Maximum must be greater than minimum"
-msgstr ""
+msgstr "最大サイズは最小サイズより大きくなければなりません"
 
 #: src/components/storage/VolumeForm.jsx:499
 msgid "File system type"
-msgstr ""
+msgstr "ファイルシステムの種類"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
-msgstr ""
+msgstr "zFCP ディスクは有効化されませんでした。"
 
 #. TRANSLATORS: abbrev. World Wide Port Name
 #: src/components/storage/ZFCPDiskForm.jsx:129
 #: src/components/storage/ZFCPPage.jsx:364
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #. TRANSLATORS: abbrev. Logical Unit Number
 #: src/components/storage/ZFCPDiskForm.jsx:140
 #: src/components/storage/ZFCPPage.jsx:365
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: src/components/storage/ZFCPPage.jsx:305
 msgid "Auto LUNs Scan"
-msgstr ""
+msgstr "自動 LUN 検出"
 
 #: src/components/storage/ZFCPPage.jsx:316
 msgid "Activated"
-msgstr ""
+msgstr "有効"
 
 #: src/components/storage/ZFCPPage.jsx:316
 msgid "Deactivated"
-msgstr ""
+msgstr "無効"
 
 #: src/components/storage/ZFCPPage.jsx:419
-#, fuzzy
-#| msgid "No WiFi connections found"
 msgid "No zFCP controllers found"
-msgstr "WiFi 接続が見つかりませんでした"
+msgstr "zFCP コントローラが見つかりませんでした"
 
 #: src/components/storage/ZFCPPage.jsx:420
 msgid "Please, try to read the zFCP devices again."
-msgstr ""
+msgstr "zFCP デバイスの再読み込みを試してみてください。"
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:422
 msgid "Read zFCP devices"
-msgstr ""
+msgstr "zFCP デバイスの読み込み"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:431
@@ -1202,53 +1196,51 @@ msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
 msgstr ""
+"自動 LUN スキャンが [有効化] されています。 NPIV モードで動作しているコントローラを有効化した場合、その LUN "
+"は全て自動的に設定されます。"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:434
 msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
 "activating a controller."
-msgstr ""
+msgstr "自動 LUN スキャンが [無効化] されています。 LUN はコントローラの有効化後、手作業で設定しなければなりません。"
 
 #: src/components/storage/ZFCPPage.jsx:500
 msgid "Activate a zFCP disk"
-msgstr ""
+msgstr "zFCP ディスクの有効化"
 
 #: src/components/storage/ZFCPPage.jsx:539
 msgid "Please, try to activate a zFCP controller."
-msgstr ""
+msgstr "zFCP コントローラの有効化をお試しください。"
 
 #: src/components/storage/ZFCPPage.jsx:546
 msgid "Please, try to activate a zFCP disk."
-msgstr ""
+msgstr "zFCP ディスクの有効化をお試しください。"
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:548
 msgid "Activate zFCP disk"
-msgstr ""
+msgstr "zFCP ディスクの有効化"
 
 #: src/components/storage/ZFCPPage.jsx:555
-#, fuzzy
-#| msgid "New issues found"
 msgid "No zFCP disks found"
-msgstr "新しい問題点が見つかりました"
+msgstr "zFCP ディスクが見つかりませんでした"
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:574
 msgid "Activate new disk"
-msgstr ""
+msgstr "新しいディスクの有効化"
 
 #. TRANSLATORS: section title
 #: src/components/storage/ZFCPPage.jsx:586
 msgid "Disks"
-msgstr ""
+msgstr "ディスク"
 
 #. TRANSLATORS: page title
 #: src/components/storage/ZFCPPage.jsx:734
-#, fuzzy
-#| msgid "Storage"
 msgid "Storage zFCP"
-msgstr "ストレージ"
+msgstr "ストレージ zFCP"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
@@ -1424,203 +1416,173 @@ msgstr "ターゲット"
 
 #: src/components/storage/utils.js:44
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: src/components/storage/utils.js:45
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: src/components/storage/utils.js:46
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: src/components/storage/utils.js:47
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: src/components/storage/utils.js:48
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: src/components/users/FirstUser.jsx:45
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
-msgstr ""
+msgstr "なお、システムにログインできるようにするには、インストールの前にユーザを設定しておかなければならないことに注意してください。"
 
 #. TRANSLATORS: push button label
 #: src/components/users/FirstUser.jsx:47
 msgid "Define a user now"
-msgstr ""
+msgstr "今すぐユーザを設定する"
 
 #: src/components/users/FirstUser.jsx:57 src/components/users/FirstUser.jsx:198
 msgid "Full name"
-msgstr ""
+msgstr "フルネーム"
 
 #: src/components/users/FirstUser.jsx:58 src/components/users/FirstUser.jsx:209
 #: src/components/users/FirstUser.jsx:213
 #: src/components/users/FirstUser.jsx:215
-#, fuzzy
-#| msgid "User name"
 msgid "Username"
 msgstr "ユーザ名"
 
 #: src/components/users/FirstUser.jsx:174
 #: src/components/users/RootAuthMethods.jsx:95
 #: src/components/users/RootAuthMethods.jsx:107
-#, fuzzy
-#| msgid "Discover"
 msgid "Discard"
-msgstr "検索"
+msgstr "破棄"
 
 #: src/components/users/FirstUser.jsx:191
 msgid "Create user account"
-msgstr ""
+msgstr "ユーザアカウントの作成"
 
 #: src/components/users/FirstUser.jsx:191
-#, fuzzy
-#| msgid "Edit %s connection"
 msgid "Edit user account"
-msgstr "接続 %s の編集"
+msgstr "ユーザアカウントの編集"
 
 #: src/components/users/FirstUser.jsx:202
 #: src/components/users/FirstUser.jsx:204
-#, fuzzy
-#| msgid "User name"
 msgid "User full name"
-msgstr "ユーザ名"
+msgstr "ユーザのフルネーム"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:223
 #: src/components/users/FirstUser.jsx:227
-#, fuzzy
-#| msgid "User password"
 msgid "Edit password too"
-msgstr "ユーザのパスワード"
+msgstr "パスワードも編集する"
 
 #: src/components/users/FirstUser.jsx:242
 msgid "user autologin"
-msgstr ""
+msgstr "ユーザの自動ログイン"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:246
 msgid "Auto-login"
-msgstr ""
+msgstr "自動ログイン"
 
 #: src/components/users/RootAuthMethods.jsx:35
-#, fuzzy
-#| msgid "No root authentication method defined"
 msgid "No root authentication method defined yet"
-msgstr "root 認証方式を設定していません"
+msgstr "まだ root 認証方式を設定していません"
 
 #: src/components/users/RootAuthMethods.jsx:36
 msgid ""
 "Please, define at least one authentication method for logging into the "
 "system as root."
-msgstr ""
+msgstr "少なくとも 1 つ以上の root ログイン時の認証方式を設定してください。"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:39
-#, fuzzy
-#| msgid "User password"
 msgid "Set a password"
-msgstr "ユーザのパスワード"
+msgstr "パスワードの設定"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:41
 msgid "Upload a SSH Public Key"
-msgstr ""
+msgstr "SSH 公開鍵のアップロード"
 
 #: src/components/users/RootAuthMethods.jsx:90
 #: src/components/users/RootAuthMethods.jsx:103
-#, fuzzy
-#| msgid "Change product"
 msgid "Change"
-msgstr "製品の変更"
+msgstr "変更"
 
 #: src/components/users/RootAuthMethods.jsx:90
 #: src/components/users/RootAuthMethods.jsx:103
-#, fuzzy
-#| msgid "Select"
 msgid "Set"
-msgstr "選択"
+msgstr "設定"
 
 #: src/components/users/RootAuthMethods.jsx:125
 msgid "Already set"
-msgstr ""
+msgstr "設定済み"
 
 #: src/components/users/RootAuthMethods.jsx:126
 #: src/components/users/RootAuthMethods.jsx:130
 msgid "Not set"
-msgstr ""
+msgstr "未設定"
 
 #. TRANSLATORS: table header, user authentication method
 #: src/components/users/RootAuthMethods.jsx:151
 msgid "Method"
-msgstr ""
+msgstr "方式"
 
 #: src/components/users/RootAuthMethods.jsx:166
 msgid "SSH Key"
-msgstr ""
+msgstr "SSH 鍵"
 
 #: src/components/users/RootAuthMethods.jsx:183
-#, fuzzy
-#| msgid "Target Password"
 msgid "Change the root password"
-msgstr "ターゲットのパスワード"
+msgstr "root のパスワードを変更"
 
 #: src/components/users/RootAuthMethods.jsx:183
-#, fuzzy
-#| msgid "User password"
 msgid "Set a root password"
-msgstr "ユーザのパスワード"
+msgstr "root のパスワードを設定"
 
 #: src/components/users/RootAuthMethods.jsx:190
 msgid "Add a SSH Public Key for root"
-msgstr ""
+msgstr "root に対する SSH 公開鍵の追加"
 
 #: src/components/users/RootAuthMethods.jsx:190
 msgid "Edit the SSH Public Key for root"
-msgstr ""
+msgstr "root に対する SSH 公開鍵の編集"
 
 #: src/components/users/RootPasswordPopup.jsx:42
-#, fuzzy
-#| msgid "Incorrect password"
 msgid "Root password"
-msgstr "パスワードが正しくありません"
+msgstr "root のパスワード"
 
 #: src/components/users/RootSSHKeyPopup.jsx:43
 msgid "Set root SSH public key"
-msgstr ""
+msgstr "root の SSH 公開鍵の設定"
 
 #: src/components/users/RootSSHKeyPopup.jsx:71
 msgid "Root SSH public key"
-msgstr ""
+msgstr "root の SSH 公開鍵"
 
 #: src/components/users/RootSSHKeyPopup.jsx:76
 msgid "Upload, paste, or drop an SSH public key"
-msgstr ""
+msgstr "SSH 公開鍵のアップロード／貼り付け／ドロップ"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootSSHKeyPopup.jsx:78
-#, fuzzy
-#| msgid "Reload"
 msgid "Upload"
-msgstr "再読み込み"
+msgstr "アップロード"
 
 #. TRANSLATORS: push button label, clears the related input field
 #: src/components/users/RootSSHKeyPopup.jsx:80
 msgid "Clear"
-msgstr ""
+msgstr "消去"
 
 #: src/components/users/UsersPage.jsx:31
-#, fuzzy
-#| msgid "Users"
 msgid "User"
 msgstr "ユーザ"
 
 #: src/components/users/UsersPage.jsx:34
-#, fuzzy
-#| msgid "No root authentication method defined"
 msgid "Root authentication"
-msgstr "root 認証方式を設定していません"
+msgstr "root の認証"
