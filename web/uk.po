@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-30 14:44+0000\n"
+"POT-Creation-Date: 2023-09-01 17:28+0000\n"
 "PO-Revision-Date: 2023-08-06 21:15+0000\n"
 "Last-Translator: Milachew <milachew@mail.lv>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -46,7 +46,7 @@ msgstr ""
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
-#: src/components/core/Sidebar.jsx:175 src/components/core/Terminal.jsx:48
+#: src/components/core/Sidebar.jsx:177 src/components/core/Terminal.jsx:48
 #: src/components/network/WifiSelector.jsx:151
 msgid "Close"
 msgstr "Закрити"
@@ -231,24 +231,24 @@ msgstr ""
 msgid "Open Terminal"
 msgstr ""
 
-#: src/components/core/Sidebar.jsx:133
+#: src/components/core/Sidebar.jsx:135
 msgid "Show global options"
 msgstr ""
 
-#: src/components/core/Sidebar.jsx:139
+#: src/components/core/Sidebar.jsx:141
 msgid "New issues found"
 msgstr ""
 
-#: src/components/core/Sidebar.jsx:149
+#: src/components/core/Sidebar.jsx:151
 msgid "Global options"
 msgstr ""
 
 #. TRANSLATORS: sidebar header
-#: src/components/core/Sidebar.jsx:155
+#: src/components/core/Sidebar.jsx:157
 msgid "Options"
 msgstr ""
 
-#: src/components/core/Sidebar.jsx:162
+#: src/components/core/Sidebar.jsx:164
 msgid "Hide navigation and other options"
 msgstr ""
 
@@ -297,6 +297,11 @@ msgstr ""
 #: src/components/layout/DBusError.jsx:56
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
+msgstr ""
+
+#: src/components/layout/Icon.jsx:155
+#, javascript-format
+msgid "Icon %s not found!"
 msgstr ""
 
 #: src/components/layout/Loading.jsx:28
@@ -443,6 +448,10 @@ msgstr ""
 #: src/components/network/IpSettingsForm.jsx:161
 #: src/components/network/IpSettingsForm.jsx:164
 msgid "Gateway"
+msgstr ""
+
+#: src/components/network/NetworkPage.jsx:38
+msgid "No wired connections found"
 msgstr ""
 
 #: src/components/network/NetworkPage.jsx:53
@@ -835,20 +844,38 @@ msgstr ""
 msgid "Transport %s"
 msgstr ""
 
+#. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
+#: src/components/storage/DeviceSelector.jsx:135
+#, javascript-format
+msgid "Members: %s"
+msgstr ""
+
+#. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
+#: src/components/storage/DeviceSelector.jsx:144
+#, javascript-format
+msgid "Devices: %s"
+msgstr ""
+
+#. TRANSLATORS: multipath details, %s is replaced by list of connections used by the device
+#: src/components/storage/DeviceSelector.jsx:153
+#, javascript-format
+msgid "Wires: %s"
+msgstr ""
+
 #. TRANSLATORS: disk partition info, %s is replaced by partition table
 #. type (MS-DOS or GPT), %d is the number of the partitions
-#: src/components/storage/DeviceSelector.jsx:174
+#: src/components/storage/DeviceSelector.jsx:177
 #, javascript-format
 msgid "%s with %d partitions"
 msgstr ""
 
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
-#: src/components/storage/DeviceSelector.jsx:198
+#: src/components/storage/DeviceSelector.jsx:201
 msgid "No content found"
 msgstr ""
 
-#: src/components/storage/DeviceSelector.jsx:246
+#: src/components/storage/DeviceSelector.jsx:249
 msgid "Available devices"
 msgstr ""
 
@@ -897,8 +924,16 @@ msgstr ""
 msgid "Activate disks"
 msgstr ""
 
+#: src/components/storage/ProposalPageOptions.jsx:60
+msgid "zFCP"
+msgstr ""
+
 #: src/components/storage/ProposalPageOptions.jsx:76
 msgid "Connect to iSCSI targets"
+msgstr ""
+
+#: src/components/storage/ProposalPageOptions.jsx:78
+msgid "iSCSI"
 msgstr ""
 
 #: src/components/storage/ProposalSettingsSection.jsx:112
