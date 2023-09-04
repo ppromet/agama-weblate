@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 02:05+0000\n"
-"PO-Revision-Date: 2023-09-02 01:15+0000\n"
+"PO-Revision-Date: 2023-09-04 07:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -563,17 +563,13 @@ msgstr "接続しています"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:44
-#, fuzzy
-#| msgid "Connect"
 msgid "Connected"
-msgstr "接続"
+msgstr "接続済み"
 
 #. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:47
-#, fuzzy
-#| msgid "Disconnected"
 msgid "Disconnecting"
-msgstr "切断済み"
+msgstr "切断中"
 
 #. TRANSLATORS: iSCSI connection status
 #. TRANSLATORS: Wifi network status
