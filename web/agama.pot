@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-01 17:28+0000\n"
+"POT-Creation-Date: 2023-09-04 02:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -540,14 +540,33 @@ msgstr ""
 msgid "Connect to hidden network"
 msgstr ""
 
-#. TRANSLATORS: %s is replaced by a WiFi network name
-#: src/components/network/WifiNetworkListItem.jsx:93
-#, javascript-format
-msgid "%s connection is waiting for an state change"
+#. TRANSLATORS: Wifi network status
+#: src/components/network/WifiNetworkListItem.jsx:41
+#: src/components/network/WifiNetworkListItem.jsx:99
+msgid "Connecting"
 msgstr ""
 
-#: src/components/network/WifiNetworkListItem.jsx:95
-msgid "Connecting"
+#. TRANSLATORS: Wifi network status
+#: src/components/network/WifiNetworkListItem.jsx:44
+msgid "Connected"
+msgstr ""
+
+#. TRANSLATORS: Wifi network status
+#: src/components/network/WifiNetworkListItem.jsx:47
+msgid "Disconnecting"
+msgstr ""
+
+#. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
+#: src/components/network/WifiNetworkListItem.jsx:50
+#: src/components/storage/iscsi/NodesPresenter.jsx:63
+msgid "Disconnected"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by a WiFi network name
+#: src/components/network/WifiNetworkListItem.jsx:97
+#, javascript-format
+msgid "%s connection is waiting for an state change"
 msgstr ""
 
 #. TRANSLATORS: menu label, remove the selected WiFi network settings
@@ -1379,11 +1398,6 @@ msgstr ""
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:27
 msgid "Automatic"
-msgstr ""
-
-#. TRANSLATORS: iSCSI connection status
-#: src/components/storage/iscsi/NodesPresenter.jsx:63
-msgid "Disconnected"
 msgstr ""
 
 #. TRANSLATORS: iSCSI connection status, %s is replaced by node label
