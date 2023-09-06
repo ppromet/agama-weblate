@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-06 02:05+0000\n"
-"PO-Revision-Date: 2023-09-04 07:15+0000\n"
+"PO-Revision-Date: 2023-09-06 11:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1411,10 +1411,9 @@ msgstr "イニシエータ"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target name
 #: src/components/storage/iscsi/LoginForm.jsx:69
-#, fuzzy, javascript-format
-#| msgid "Login"
+#, javascript-format
 msgid "Login %s"
-msgstr "ログイン"
+msgstr "%s にログイン"
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
 #: src/components/storage/iscsi/LoginForm.jsx:76
