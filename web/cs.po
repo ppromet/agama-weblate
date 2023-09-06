@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-04 02:05+0000\n"
+"POT-Creation-Date: 2023-09-06 02:05+0000\n"
 "PO-Revision-Date: 2023-07-26 15:03+0000\n"
 "Last-Translator: Ladislav Slezák <lslezak@suse.com>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
@@ -1390,6 +1390,12 @@ msgstr ""
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:50
 msgid "Initiator"
+msgstr ""
+
+#. TRANSLATORS: %s is replaced by the iSCSI target name
+#: src/components/storage/iscsi/LoginForm.jsx:69
+#, javascript-format
+msgid "Login %s"
 msgstr ""
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
