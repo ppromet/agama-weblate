@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 13:35+0000\n"
+"POT-Creation-Date: 2023-09-20 02:05+0000\n"
 "PO-Revision-Date: 2023-09-06 11:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -708,21 +708,21 @@ msgstr "暗号化パスワード"
 msgid "Change product"
 msgstr "製品の変更"
 
-#: src/components/software/ProductSelectionPage.jsx:68
+#: src/components/software/ProductSelectionPage.jsx:69
 msgid "Loading available products, please wait..."
 msgstr "利用可能な製品を読み込んでいます。しばらくお待ちください..."
 
 #. TRANSLATORS: page header
-#: src/components/software/ProductSelectionPage.jsx:93
+#: src/components/software/ProductSelectionPage.jsx:94
 msgid "Product selection"
 msgstr "製品の選択"
 
 #. TRANSLATORS: button label
-#: src/components/software/ProductSelectionPage.jsx:98
+#: src/components/software/ProductSelectionPage.jsx:99
 msgid "Select"
 msgstr "選択"
 
-#: src/components/software/ProductSelectionPage.jsx:103
+#: src/components/software/ProductSelectionPage.jsx:104
 msgid "Choose a product"
 msgstr "製品を選択してください"
 

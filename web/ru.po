@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 13:35+0000\n"
+"POT-Creation-Date: 2023-09-20 02:05+0000\n"
 "PO-Revision-Date: 2023-09-11 13:15+0000\n"
 "Last-Translator: Alex Minton <alex239@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -715,21 +715,21 @@ msgstr ""
 msgid "Change product"
 msgstr ""
 
-#: src/components/software/ProductSelectionPage.jsx:68
+#: src/components/software/ProductSelectionPage.jsx:69
 msgid "Loading available products, please wait..."
 msgstr ""
 
 #. TRANSLATORS: page header
-#: src/components/software/ProductSelectionPage.jsx:93
+#: src/components/software/ProductSelectionPage.jsx:94
 msgid "Product selection"
 msgstr ""
 
 #. TRANSLATORS: button label
-#: src/components/software/ProductSelectionPage.jsx:98
+#: src/components/software/ProductSelectionPage.jsx:99
 msgid "Select"
 msgstr ""
 
-#: src/components/software/ProductSelectionPage.jsx:103
+#: src/components/software/ProductSelectionPage.jsx:104
 msgid "Choose a product"
 msgstr ""
 

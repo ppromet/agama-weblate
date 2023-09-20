@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 13:35+0000\n"
+"POT-Creation-Date: 2023-09-20 02:05+0000\n"
 "PO-Revision-Date: 2023-09-14 07:15+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -711,21 +711,21 @@ msgstr "Krypteringslösenord"
 msgid "Change product"
 msgstr "Ändra produkt"
 
-#: src/components/software/ProductSelectionPage.jsx:68
+#: src/components/software/ProductSelectionPage.jsx:69
 msgid "Loading available products, please wait..."
 msgstr "Laddar tillgängliga produkter, vänligen vänta..."
 
 #. TRANSLATORS: page header
-#: src/components/software/ProductSelectionPage.jsx:93
+#: src/components/software/ProductSelectionPage.jsx:94
 msgid "Product selection"
 msgstr "Produktval"
 
 #. TRANSLATORS: button label
-#: src/components/software/ProductSelectionPage.jsx:98
+#: src/components/software/ProductSelectionPage.jsx:99
 msgid "Select"
 msgstr "Välj"
 
-#: src/components/software/ProductSelectionPage.jsx:103
+#: src/components/software/ProductSelectionPage.jsx:104
 msgid "Choose a product"
 msgstr "Välj en produkt"
 

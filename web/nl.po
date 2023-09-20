@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 13:35+0000\n"
+"POT-Creation-Date: 2023-09-20 02:05+0000\n"
 "PO-Revision-Date: 2023-09-15 15:15+0000\n"
 "Last-Translator: Natasha Ament <stacheldrahtje@gmail.com>\n"
-"Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/>"
-"\n"
+"Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/"
+">\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -306,7 +306,8 @@ msgstr "Kan niet verbinden met D-Bus"
 #: src/components/layout/DBusError.jsx:56
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
-msgstr "Kan niet verbinden met de D-Bus service. Controleer of deze gestart is."
+msgstr ""
+"Kan niet verbinden met de D-Bus service. Controleer of deze gestart is."
 
 #: src/components/layout/Icon.jsx:155
 #, c-format
@@ -711,21 +712,21 @@ msgstr "Encryptie wachtwoord"
 msgid "Change product"
 msgstr "Wijzig product"
 
-#: src/components/software/ProductSelectionPage.jsx:68
+#: src/components/software/ProductSelectionPage.jsx:69
 msgid "Loading available products, please wait..."
 msgstr "Laad verschillende producten, wacht alstublieft..."
 
 #. TRANSLATORS: page header
-#: src/components/software/ProductSelectionPage.jsx:93
+#: src/components/software/ProductSelectionPage.jsx:94
 msgid "Product selection"
 msgstr "Product selectie"
 
 #. TRANSLATORS: button label
-#: src/components/software/ProductSelectionPage.jsx:98
+#: src/components/software/ProductSelectionPage.jsx:99
 msgid "Select"
 msgstr "Selecteer"
 
-#: src/components/software/ProductSelectionPage.jsx:103
+#: src/components/software/ProductSelectionPage.jsx:104
 msgid "Choose a product"
 msgstr "Kies een product"
 
