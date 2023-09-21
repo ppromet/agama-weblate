@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-21 02:05+0000\n"
-"PO-Revision-Date: 2023-09-06 11:15+0000\n"
+"PO-Revision-Date: 2023-09-21 05:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -201,7 +201,7 @@ msgstr "ユーザパスワードの確認"
 
 #: src/components/core/PasswordInput.jsx:59
 msgid "Password visibility button"
-msgstr ""
+msgstr "パスワード表示ボタン"
 
 #: src/components/core/Popup.jsx:90
 msgid "Confirm"
