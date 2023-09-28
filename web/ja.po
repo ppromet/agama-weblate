@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-28 02:06+0000\n"
-"PO-Revision-Date: 2023-09-21 05:15+0000\n"
+"PO-Revision-Date: 2023-09-28 05:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -906,7 +906,7 @@ msgstr "iSCSI"
 
 #: src/components/storage/ProposalSettingsSection.jsx:135
 msgid "Select the device for installing the system."
-msgstr ""
+msgstr "システムのインストール先デバイスを選択してください。"
 
 #: src/components/storage/ProposalSettingsSection.jsx:140
 #: src/components/storage/ProposalSettingsSection.jsx:144
@@ -920,30 +920,26 @@ msgstr "デバイスが見つかりませんでした"
 
 #: src/components/storage/ProposalSettingsSection.jsx:237
 msgid "Devices for creating the volume group"
-msgstr ""
+msgstr "ボリュームグループを作成するデバイス"
 
 #: src/components/storage/ProposalSettingsSection.jsx:246
-#, fuzzy
-#| msgid "Installation device"
 msgid "Custom devices"
-msgstr "インストール先のデバイス"
+msgstr "独自のデバイス"
 
 #: src/components/storage/ProposalSettingsSection.jsx:310
 msgid ""
 "Configuration of the system volume group. All the file systems will be "
 "created in a logical volume of the system volume group."
-msgstr ""
+msgstr "システムのボリュームグループ向けの設定です。全てのファイルシステムは、システムのボリュームグループにある論理ボリューム内に作成されます。"
 
 #: src/components/storage/ProposalSettingsSection.jsx:316
 msgid "Configure the LVM settings"
-msgstr ""
+msgstr "LVM 設定"
 
 #: src/components/storage/ProposalSettingsSection.jsx:321
 #: src/components/storage/ProposalSettingsSection.jsx:341
-#, fuzzy
-#| msgid "Settings"
 msgid "LVM settings"
-msgstr "設定"
+msgstr "LVM 設定"
 
 #: src/components/storage/ProposalSettingsSection.jsx:334
 msgid "Use logical volume management (LVM)"
@@ -951,7 +947,7 @@ msgstr "論理ボリュームマネージャ (LVM) を使用する"
 
 #: src/components/storage/ProposalSettingsSection.jsx:342
 msgid "System Volume Group"
-msgstr ""
+msgstr "システムのボリュームグループ"
 
 #: src/components/storage/ProposalSettingsSection.jsx:470
 msgid "Change encryption password"
