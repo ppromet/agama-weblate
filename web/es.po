@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-01 02:16+0000\n"
-"PO-Revision-Date: 2023-09-28 13:15+0000\n"
+"PO-Revision-Date: 2023-10-01 17:15+0000\n"
 "Last-Translator: Victor hck <correohck@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
@@ -1074,42 +1074,43 @@ msgstr "la configuración de las instantáneas"
 #: src/components/storage/VolumeForm.jsx:101
 #, c-format
 msgid "the presence of the file system for %s"
-msgstr ""
+msgstr "la presencia del sistema de archivos para %s"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeForm.jsx:103
+#, fuzzy
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #. TRANSLATORS: the %s is replaced by the items which affect the computed size
 #: src/components/storage/VolumeForm.jsx:106
 #, c-format
 msgid "The final size depends on %s."
-msgstr ""
+msgstr "El tamaño final depende de %s."
 
 #. TRANSLATORS: conjunction for merging two texts
 #: src/components/storage/VolumeForm.jsx:108
 msgid " and "
-msgstr ""
+msgstr " y "
 
 #. TRANSLATORS: the partition size is automatically computed
 #: src/components/storage/VolumeForm.jsx:113
 msgid "Automatically calculated size according to the selected product."
-msgstr ""
+msgstr "Tamaño calculado automáticamente según el producto seleccionado."
 
 #: src/components/storage/VolumeForm.jsx:133
 msgid "Exact size for the file system."
-msgstr ""
+msgstr "Tamaño exacto para el sistema de archivos."
 
 #. TRANSLATORS: requested partition size
 #: src/components/storage/VolumeForm.jsx:146
 msgid "Exact size"
-msgstr ""
+msgstr "Tamaño exacto"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
 #: src/components/storage/VolumeForm.jsx:159
 msgid "Size unit"
-msgstr ""
+msgstr "Unidad de tamaño"
 
 #: src/components/storage/VolumeForm.jsx:185
 msgid ""
@@ -1117,106 +1118,111 @@ msgid ""
 "given minimum and maximum. If no maximum is given then the file system will "
 "be as big as possible."
 msgstr ""
+"Límites para el tamaño del sistema de archivos. El tamaño final será un "
+"valor entre el mínimo y el máximo dados. Si no se da un máximo, el sistema "
+"de archivos será lo más grande posible."
 
 #. TRANSLATORS: the minimal partition size
 #: src/components/storage/VolumeForm.jsx:192
 msgid "Minimum"
-msgstr ""
+msgstr "Mínimo"
 
 #. TRANSLATORS: the minium partition size
 #: src/components/storage/VolumeForm.jsx:203
 msgid "Minimum desired size"
-msgstr ""
+msgstr "Tamaño mínimo deseado"
 
 #: src/components/storage/VolumeForm.jsx:210
 msgid "Unit for the minimum size"
-msgstr ""
+msgstr "Unidad para el tamaño mínimo"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeForm.jsx:219
 msgid "Maximum"
-msgstr ""
+msgstr "Máximo"
 
 #. TRANSLATORS: the maximum partition size
 #: src/components/storage/VolumeForm.jsx:231
 msgid "Maximum desired size"
-msgstr ""
+msgstr "Tamaño máximo deseado"
 
 #: src/components/storage/VolumeForm.jsx:238
 msgid "Unit for the maximum size"
-msgstr ""
+msgstr "Unidad para el tamaño máximo"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
 #: src/components/storage/VolumeForm.jsx:253
 msgid "Auto"
-msgstr ""
+msgstr "Automático"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
 #: src/components/storage/VolumeForm.jsx:255
 msgid "Fixed"
-msgstr ""
+msgstr "Fijado"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
 #: src/components/storage/VolumeForm.jsx:257
 msgid "Range"
-msgstr ""
+msgstr "Rango"
 
 #: src/components/storage/VolumeForm.jsx:460
 msgid "A size value is required"
-msgstr ""
+msgstr "Se requiere un valor de tamaño"
 
 #: src/components/storage/VolumeForm.jsx:465
 msgid "Minimum size is required"
-msgstr ""
+msgstr "Se requiere un tamaño mínimo"
 
 #: src/components/storage/VolumeForm.jsx:469
 msgid "Maximum must be greater than minimum"
-msgstr ""
+msgstr "El máximo debe ser mayor que el mínimo"
 
 #: src/components/storage/VolumeForm.jsx:499
 msgid "File system type"
-msgstr ""
+msgstr "Tipo de sistema de archivos"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
-msgstr ""
+msgstr "El disco zFCP no estaba activado."
 
 #. TRANSLATORS: abbrev. World Wide Port Name
 #: src/components/storage/ZFCPDiskForm.jsx:129
 #: src/components/storage/ZFCPPage.jsx:364
+#, fuzzy
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #. TRANSLATORS: abbrev. Logical Unit Number
 #: src/components/storage/ZFCPDiskForm.jsx:140
 #: src/components/storage/ZFCPPage.jsx:365
+#, fuzzy
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: src/components/storage/ZFCPPage.jsx:305
 msgid "Auto LUNs Scan"
-msgstr ""
+msgstr "Escaneo automático de LUN"
 
 #: src/components/storage/ZFCPPage.jsx:316
 msgid "Activated"
-msgstr ""
+msgstr "Activado"
 
 #: src/components/storage/ZFCPPage.jsx:316
 msgid "Deactivated"
-msgstr ""
+msgstr "Desactivado"
 
 #: src/components/storage/ZFCPPage.jsx:419
 msgid "No zFCP controllers found"
-msgstr ""
+msgstr "No se encontraron controladores zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:420
 msgid "Please, try to read the zFCP devices again."
-msgstr ""
+msgstr "Por favor, intente leer los dispositivos zFCP nuevamente."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:422
 msgid "Read zFCP devices"
-msgstr ""
+msgstr "Leer dispositivos zFCP"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:431
@@ -1224,6 +1230,9 @@ msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
 msgstr ""
+"La exploración automática de LUN está [habilitada]. La activación de un "
+"controlador que se ejecuta en modo NPIV configurará automáticamente todos "
+"sus LUN."
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:434
@@ -1231,112 +1240,114 @@ msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
 "activating a controller."
 msgstr ""
+"La exploración automática de LUN está [deshabilitada]. Los LUN deben "
+"configurarse manualmente después de activar un controlador."
 
 #: src/components/storage/ZFCPPage.jsx:500
 msgid "Activate a zFCP disk"
-msgstr ""
+msgstr "Activar un disco zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:539
 msgid "Please, try to activate a zFCP controller."
-msgstr ""
+msgstr "Por favor, intente activar un controlador zFCP."
 
 #: src/components/storage/ZFCPPage.jsx:546
 msgid "Please, try to activate a zFCP disk."
-msgstr ""
+msgstr "Por favor, intente activar un disco zFCP."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:548
 msgid "Activate zFCP disk"
-msgstr ""
+msgstr "Activar disco zFCP"
 
 #: src/components/storage/ZFCPPage.jsx:555
 msgid "No zFCP disks found"
-msgstr ""
+msgstr "No se encontraron discos zFCP"
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:574
 msgid "Activate new disk"
-msgstr ""
+msgstr "Activar nuevo disco"
 
 #. TRANSLATORS: section title
 #: src/components/storage/ZFCPPage.jsx:586
 msgid "Disks"
-msgstr ""
+msgstr "Discos"
 
 #. TRANSLATORS: page title
 #: src/components/storage/ZFCPPage.jsx:734
 msgid "Storage zFCP"
-msgstr ""
+msgstr "Almacenamiento zFCP"
 
 #. TRANSLATORS: multipath device type
 #: src/components/storage/device-utils.jsx:98
 msgid "Multipath"
-msgstr ""
+msgstr "Ruta múltiple"
 
 #. TRANSLATORS: %s is replaced by the device bus ID
 #: src/components/storage/device-utils.jsx:103
-#, c-format
+#, c-format, fuzzy
 msgid "DASD %s"
-msgstr ""
+msgstr "DASD %s"
 
 #. TRANSLATORS: software RAID device, %s is replaced by the RAID level, e.g. RAID-1
 #: src/components/storage/device-utils.jsx:108
-#, c-format
+#, c-format, fuzzy
 msgid "Software %s"
-msgstr ""
+msgstr "Software %s"
 
 #: src/components/storage/device-utils.jsx:113
 msgid "SD Card"
-msgstr ""
+msgstr "Tarjeta SD"
 
 #. TRANSLATORS: %s is replaced by the device transport name, e.g. USB, SATA, SCSI...
 #: src/components/storage/device-utils.jsx:115
 #, c-format
 msgid "Transport %s"
-msgstr ""
+msgstr "Transporte %s"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
 #: src/components/storage/device-utils.jsx:134
 #, c-format
 msgid "Members: %s"
-msgstr ""
+msgstr "Miembros: %s"
 
 #. TRANSLATORS: RAID details, %s is replaced by list of devices used by the array
 #: src/components/storage/device-utils.jsx:143
 #, c-format
 msgid "Devices: %s"
-msgstr ""
+msgstr "Dispositivos: %s"
 
 #. TRANSLATORS: multipath details, %s is replaced by list of connections used by the device
 #: src/components/storage/device-utils.jsx:152
-#, c-format
+#, c-format, fuzzy
 msgid "Wires: %s"
-msgstr ""
+msgstr "Wires: %s"
 
 #. TRANSLATORS: disk partition info, %s is replaced by partition table
 #. type (MS-DOS or GPT), %d is the number of the partitions
 #: src/components/storage/device-utils.jsx:176
 #, c-format
 msgid "%s with %d partitions"
-msgstr ""
+msgstr "%s con %d particiones"
 
 #. TRANSLATORS: status message, no existing content was found on the disk,
 #. i.e. the disk is completely empty
 #: src/components/storage/device-utils.jsx:200
 msgid "No content found"
-msgstr ""
+msgstr "No se encontró contenido"
 
 #: src/components/storage/device-utils.jsx:271
 msgid "Available devices"
-msgstr ""
+msgstr "Dispositivos disponibles"
 
 #: src/components/storage/iscsi/AuthFields.jsx:70
 msgid "Only available if authentication by target is provided"
-msgstr ""
+msgstr "Solo disponible si se proporciona autenticación por destino"
 
 #: src/components/storage/iscsi/AuthFields.jsx:77
 msgid "Authentication by target"
-msgstr ""
+msgstr "Autenticación por objetivo"
 
 #: src/components/storage/iscsi/AuthFields.jsx:80
 #: src/components/storage/iscsi/AuthFields.jsx:87
@@ -1345,75 +1356,75 @@ msgstr ""
 #: src/components/storage/iscsi/AuthFields.jsx:121
 #: src/components/storage/iscsi/AuthFields.jsx:123
 msgid "User name"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #: src/components/storage/iscsi/AuthFields.jsx:81
 #: src/components/storage/iscsi/AuthFields.jsx:115
 msgid "Incorrect user name"
-msgstr ""
+msgstr "Nombre de usuario incorrecto"
 
 #: src/components/storage/iscsi/AuthFields.jsx:97
 #: src/components/storage/iscsi/AuthFields.jsx:132
 msgid "Incorrect password"
-msgstr ""
+msgstr "Contraseña incorrecta"
 
 #: src/components/storage/iscsi/AuthFields.jsx:110
 msgid "Authentication by initiator"
-msgstr ""
+msgstr "Autenticación por iniciador"
 
 #: src/components/storage/iscsi/AuthFields.jsx:138
 msgid "Target Password"
-msgstr ""
+msgstr "Contraseña de destino"
 
 #. TRANSLATORS: popup title
 #: src/components/storage/iscsi/DiscoverForm.jsx:101
 msgid "Discover iSCSI Targets"
-msgstr ""
+msgstr "Descubrir los objetivos iSCSI"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:110
 #: src/components/storage/iscsi/LoginForm.jsx:73
 msgid "Make sure you provide the correct values"
-msgstr ""
+msgstr "Asegúrese de proporcionar los valores correctos"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:115
 msgid "IP address"
-msgstr ""
+msgstr "Dirección IP"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:117
 msgid "Incorrect IP address"
-msgstr ""
+msgstr "Dirección IP incorrecta"
 
 #. TRANSLATORS: network address
 #: src/components/storage/iscsi/DiscoverForm.jsx:124
 #: src/components/storage/iscsi/DiscoverForm.jsx:126
 msgid "Address"
-msgstr ""
+msgstr "Dirección"
 
 #. TRANSLATORS: network port number
 #: src/components/storage/iscsi/DiscoverForm.jsx:134
 #: src/components/storage/iscsi/DiscoverForm.jsx:143
 #: src/components/storage/iscsi/DiscoverForm.jsx:145
 msgid "Port"
-msgstr ""
+msgstr "Puerto"
 
 #: src/components/storage/iscsi/DiscoverForm.jsx:136
 msgid "Incorrect port"
-msgstr ""
+msgstr "Puerto incorrecto"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target node name
 #: src/components/storage/iscsi/EditNodeForm.jsx:50
 #, c-format
 msgid "Edit %s"
-msgstr ""
+msgstr "Editar %s"
 
 #: src/components/storage/iscsi/InitiatorForm.jsx:42
 msgid "Edit iSCSI Initiator"
-msgstr ""
+msgstr "Editar iniciador iSCSI"
 
 #. TRANSLATORS: iSCSI initiator name
 #: src/components/storage/iscsi/InitiatorForm.jsx:49
 msgid "Initiator name"
-msgstr ""
+msgstr "Nombre del iniciador"
 
 #. TRANSLATORS: usually just keep the original text
 #. iBFT = iSCSI Boot Firmware Table, HW support for booting from iSCSI
@@ -1421,256 +1432,267 @@ msgstr ""
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:86
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 #: src/components/storage/iscsi/NodesPresenter.jsx:124
+#, fuzzy
 msgid "iBFT"
-msgstr ""
+msgstr "iBFT"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:87
 msgid "Offload card"
-msgstr ""
+msgstr "Descargar tarjeta"
 
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:50
 msgid "Initiator"
-msgstr ""
+msgstr "Iniciador"
 
 #. TRANSLATORS: %s is replaced by the iSCSI target name
 #: src/components/storage/iscsi/LoginForm.jsx:69
 #, c-format
 msgid "Login %s"
-msgstr ""
+msgstr "Iniciar sesión %s"
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
 #: src/components/storage/iscsi/LoginForm.jsx:76
 #: src/components/storage/iscsi/LoginForm.jsx:79
 msgid "Startup"
-msgstr ""
+msgstr "Puesta en marcha"
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:26
 msgid "On boot"
-msgstr ""
+msgstr "En arranque"
 
 #: src/components/storage/iscsi/NodeStartupOptions.js:27
 msgid "Automatic"
-msgstr ""
+msgstr "Automático"
 
 #. TRANSLATORS: iSCSI connection status, %s is replaced by node label
 #: src/components/storage/iscsi/NodesPresenter.jsx:67
 #, c-format
 msgid "Connected (%s)"
-msgstr ""
+msgstr "Conectado (%s)"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:82
 msgid "Login"
-msgstr ""
+msgstr "Iniciar sesión"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:86
 msgid "Logout"
-msgstr ""
+msgstr "Cerrar sesión"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:101
 #: src/components/storage/iscsi/NodesPresenter.jsx:122
 msgid "Portal"
-msgstr ""
+msgstr "Portal"
 
 #: src/components/storage/iscsi/NodesPresenter.jsx:102
 #: src/components/storage/iscsi/NodesPresenter.jsx:123
 msgid "Interface"
-msgstr ""
+msgstr "Interfaz"
 
 #: src/components/storage/iscsi/TargetsSection.jsx:139
 msgid "No iSCSI targets found"
-msgstr ""
+msgstr "No se encontraron objetivos iSCSI"
 
 #: src/components/storage/iscsi/TargetsSection.jsx:140
 msgid ""
 "Please, perform an iSCSI discovery in order to find available iSCSI targets."
 msgstr ""
+"Realice una exploación de iSCSI para encontrar objetivos iSCSI disponibles."
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:142
 msgid "Discover iSCSI targets"
-msgstr ""
+msgstr "Descubrir objetivos iSCSI"
 
 #. TRANSLATORS: button label, starts iSCSI discovery
 #: src/components/storage/iscsi/TargetsSection.jsx:153
 msgid "Discover"
-msgstr ""
+msgstr "Descubrir"
 
 #. TRANSLATORS: iSCSI targets section title
 #: src/components/storage/iscsi/TargetsSection.jsx:167
 msgid "Targets"
-msgstr ""
+msgstr "Objetivos"
 
 #: src/components/storage/utils.js:44
+#, fuzzy
 msgid "KiB"
-msgstr ""
+msgstr "KiB"
 
 #: src/components/storage/utils.js:45
+#, fuzzy
 msgid "MiB"
-msgstr ""
+msgstr "MiB"
 
 #: src/components/storage/utils.js:46
+#, fuzzy
 msgid "GiB"
-msgstr ""
+msgstr "GiB"
 
 #: src/components/storage/utils.js:47
+#, fuzzy
 msgid "TiB"
-msgstr ""
+msgstr "TiB"
 
 #: src/components/storage/utils.js:48
+#, fuzzy
 msgid "PiB"
-msgstr ""
+msgstr "PiB"
 
 #: src/components/users/FirstUser.jsx:45
 msgid ""
 "Please, be aware that a user must be defined before installing the system to "
 "be able to log into it."
 msgstr ""
+"Tenga en cuenta que se debe definir un usuario antes de instalar el sistema "
+"para poder iniciar sesión en él."
 
 #. TRANSLATORS: push button label
 #: src/components/users/FirstUser.jsx:47
 msgid "Define a user now"
-msgstr ""
+msgstr "Definir un usuario ahora"
 
 #: src/components/users/FirstUser.jsx:57 src/components/users/FirstUser.jsx:198
 msgid "Full name"
-msgstr ""
+msgstr "Nombre completo"
 
 #: src/components/users/FirstUser.jsx:58 src/components/users/FirstUser.jsx:209
 #: src/components/users/FirstUser.jsx:213
 #: src/components/users/FirstUser.jsx:215
 msgid "Username"
-msgstr ""
+msgstr "Nombre de usuario"
 
 #: src/components/users/FirstUser.jsx:174
 #: src/components/users/RootAuthMethods.jsx:95
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Discard"
-msgstr ""
+msgstr "Descartar"
 
 #: src/components/users/FirstUser.jsx:191
 msgid "Create user account"
-msgstr ""
+msgstr "Crear cuenta de usuario"
 
 #: src/components/users/FirstUser.jsx:191
 msgid "Edit user account"
-msgstr ""
+msgstr "Editar cuenta de usuario"
 
 #: src/components/users/FirstUser.jsx:202
 #: src/components/users/FirstUser.jsx:204
 msgid "User full name"
-msgstr ""
+msgstr "Nombre completo del usuario"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:223
 #: src/components/users/FirstUser.jsx:227
 msgid "Edit password too"
-msgstr ""
+msgstr "Editar contraseña también"
 
 #: src/components/users/FirstUser.jsx:242
 msgid "user autologin"
-msgstr ""
+msgstr "inicio de sesión automático del usuario"
 
 #. TRANSLATORS: check box label
 #: src/components/users/FirstUser.jsx:246
 msgid "Auto-login"
-msgstr ""
+msgstr "Inicio de sesión automático"
 
 #: src/components/users/RootAuthMethods.jsx:35
 msgid "No root authentication method defined yet"
-msgstr ""
+msgstr "Aún no se ha definido ningún método de autenticación de root"
 
 #: src/components/users/RootAuthMethods.jsx:36
 msgid ""
 "Please, define at least one authentication method for logging into the "
 "system as root."
 msgstr ""
+"Por favor, defina al menos un método de autenticación para iniciar sesión en "
+"el sistema como root."
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:39
 msgid "Set a password"
-msgstr ""
+msgstr "Establecer una contraseña"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootAuthMethods.jsx:41
 msgid "Upload a SSH Public Key"
-msgstr ""
+msgstr "Cargar una clave pública SSH"
 
 #: src/components/users/RootAuthMethods.jsx:90
 #: src/components/users/RootAuthMethods.jsx:103
 msgid "Change"
-msgstr ""
+msgstr "Cambiar"
 
 #: src/components/users/RootAuthMethods.jsx:90
 #: src/components/users/RootAuthMethods.jsx:103
 msgid "Set"
-msgstr ""
+msgstr "Establecer"
 
 #: src/components/users/RootAuthMethods.jsx:125
 msgid "Already set"
-msgstr ""
+msgstr "Ya establecida"
 
 #: src/components/users/RootAuthMethods.jsx:126
 #: src/components/users/RootAuthMethods.jsx:130
 msgid "Not set"
-msgstr ""
+msgstr "No establecida"
 
 #. TRANSLATORS: table header, user authentication method
 #: src/components/users/RootAuthMethods.jsx:151
 msgid "Method"
-msgstr ""
+msgstr "Método"
 
 #: src/components/users/RootAuthMethods.jsx:166
 msgid "SSH Key"
-msgstr ""
+msgstr "Clave SSH"
 
 #: src/components/users/RootAuthMethods.jsx:183
 msgid "Change the root password"
-msgstr ""
+msgstr "Cambiar la contraseña de root"
 
 #: src/components/users/RootAuthMethods.jsx:183
 msgid "Set a root password"
-msgstr ""
+msgstr "Establecer una contraseña de root"
 
 #: src/components/users/RootAuthMethods.jsx:190
 msgid "Add a SSH Public Key for root"
-msgstr ""
+msgstr "Añadir una clave pública SSH para root"
 
 #: src/components/users/RootAuthMethods.jsx:190
 msgid "Edit the SSH Public Key for root"
-msgstr ""
+msgstr "Editar la clave pública SSH para root"
 
 #: src/components/users/RootPasswordPopup.jsx:42
 msgid "Root password"
-msgstr ""
+msgstr "Contraseña de root"
 
 #: src/components/users/RootSSHKeyPopup.jsx:43
 msgid "Set root SSH public key"
-msgstr ""
+msgstr "Establecer clave pública SSH de root"
 
 #: src/components/users/RootSSHKeyPopup.jsx:71
 msgid "Root SSH public key"
-msgstr ""
+msgstr "Clave pública SSH de root"
 
 #: src/components/users/RootSSHKeyPopup.jsx:76
 msgid "Upload, paste, or drop an SSH public key"
-msgstr ""
+msgstr "Cargar, pegar o arrastrar una clave pública SSH"
 
 #. TRANSLATORS: push button label
 #: src/components/users/RootSSHKeyPopup.jsx:78
 msgid "Upload"
-msgstr ""
+msgstr "Cargar"
 
 #. TRANSLATORS: push button label, clears the related input field
 #: src/components/users/RootSSHKeyPopup.jsx:80
 msgid "Clear"
-msgstr ""
+msgstr "Limpiar"
 
 #: src/components/users/UsersPage.jsx:31
 msgid "User"
-msgstr ""
+msgstr "Usuario"
 
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
-msgstr ""
+msgstr "Autenticación de root"
