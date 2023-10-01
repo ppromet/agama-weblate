@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 02:06+0000\n"
+"POT-Creation-Date: 2023-10-01 02:16+0000\n"
 "PO-Revision-Date: 2023-09-28 13:15+0000\n"
 "Last-Translator: Victor hck <correohck@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -45,7 +45,8 @@ msgstr ""
 #: src/components/core/About.jsx:65
 #, c-format
 msgid "For more information, please visit the project's repository at %s."
-msgstr "Para obtener más información, visite el repositorio del proyecto en %s."
+msgstr ""
+"Para obtener más información, visite el repositorio del proyecto en %s."
 
 #. TRANSLATORS: button label
 #: src/components/core/About.jsx:71 src/components/core/FileViewer.jsx:80
@@ -69,8 +70,8 @@ msgid ""
 "There are some reported issues. Please, check [the list of issues] before "
 "proceeding with the installation."
 msgstr ""
-"Hay algunos problemas reportados. Por favor, consulte [la lista de problemas]"
-" antes de continuar con la instalación."
+"Hay algunos problemas reportados. Por favor, consulte [la lista de "
+"problemas] antes de continuar con la instalación."
 
 #: src/components/core/InstallButton.jsx:60
 msgid "Confirm Installation"
@@ -528,7 +529,8 @@ msgstr "Algo salió mal"
 
 #: src/components/network/WifiConnectionForm.jsx:92
 msgid "Please, review provided settings and try again."
-msgstr "Por favor, revise la configuración proporcionada y vuelva a intentarlo."
+msgstr ""
+"Por favor, revise la configuración proporcionada y vuelva a intentarlo."
 
 #. TRANSLATORS: SSID (Wifi network name) configuration
 #: src/components/network/WifiConnectionForm.jsx:97
@@ -648,8 +650,8 @@ msgstr "Instalar utilizando el dispositivo %s y eliminar todo su contenido"
 msgid "Probing storage devices"
 msgstr "Explorando dispositivos de almacenamiento"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:182
 #: src/components/storage/ProposalPage.jsx:218
 msgid "Storage"

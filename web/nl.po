@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-28 02:06+0000\n"
+"POT-Creation-Date: 2023-10-01 02:16+0000\n"
 "PO-Revision-Date: 2023-09-15 15:15+0000\n"
 "Last-Translator: Natasha Ament <stacheldrahtje@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/"
@@ -650,8 +650,8 @@ msgstr "Installeer op apparaat %s en verwijder alle daarop opgeslagen inhoud"
 msgid "Probing storage devices"
 msgstr "Onderzoeken van opslagapparaten"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:182
 #: src/components/storage/ProposalPage.jsx:218
 msgid "Storage"
