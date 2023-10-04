@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-01 02:16+0000\n"
+"POT-Creation-Date: 2023-10-04 02:07+0000\n"
 "PO-Revision-Date: 2023-09-28 05:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -94,8 +94,8 @@ msgstr "問題点が見つかりました"
 #: src/components/storage/ProposalSettingsSection.jsx:166
 #: src/components/storage/ProposalSettingsSection.jsx:359
 #: src/components/storage/ProposalSettingsSection.jsx:504
-#: src/components/storage/ProposalVolumes.jsx:146
-#: src/components/storage/ProposalVolumes.jsx:277
+#: src/components/storage/ProposalVolumes.jsx:148
+#: src/components/storage/ProposalVolumes.jsx:279
 #: src/components/storage/ZFCPPage.jsx:513
 msgid "Accept"
 msgstr "受け入れる"
@@ -106,36 +106,36 @@ msgid "Install"
 msgstr "インストール"
 
 #. TRANSLATORS: button label
-#: src/components/core/InstallationFinished.jsx:42
+#: src/components/core/InstallationFinished.jsx:44
 msgid "Finish"
 msgstr "完了"
 
 #. TRANSLATORS: button label
-#: src/components/core/InstallationFinished.jsx:44
+#: src/components/core/InstallationFinished.jsx:46
 msgid "Reboot"
 msgstr "再起動"
 
-#: src/components/core/InstallationFinished.jsx:57
+#: src/components/core/InstallationFinished.jsx:59
 msgid "Installation Finished"
 msgstr "インストール完了"
 
-#: src/components/core/InstallationFinished.jsx:68
+#: src/components/core/InstallationFinished.jsx:69
 msgid "Congratulations!"
 msgstr "おめでとうございます！"
 
-#: src/components/core/InstallationFinished.jsx:72
+#: src/components/core/InstallationFinished.jsx:74
 msgid "The installation on your machine is complete."
 msgstr "お使いのマシンに対するインストールが完了しました。"
 
-#: src/components/core/InstallationFinished.jsx:76
+#: src/components/core/InstallationFinished.jsx:78
 msgid "At this point you can power off the machine."
 msgstr "マシンの電源を切って問題ありません。"
 
-#: src/components/core/InstallationFinished.jsx:77
+#: src/components/core/InstallationFinished.jsx:79
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr "マシンを再起動することで、新しいシステムにログインすることができます。"
 
-#: src/components/core/InstallationFinished.jsx:80
+#: src/components/core/InstallationFinished.jsx:82
 msgid "Have a lot of fun! Your openSUSE Development Team."
 msgstr "お楽しみください！ openSUSE 開発チーム一同より。"
 
@@ -182,8 +182,8 @@ msgstr "パスワードが合致しません"
 
 #: src/components/core/PasswordAndConfirmationInput.jsx:56
 #: src/components/network/WifiConnectionForm.jsx:125
-#: src/components/storage/iscsi/AuthFields.jsx:96
-#: src/components/storage/iscsi/AuthFields.jsx:103
+#: src/components/storage/iscsi/AuthFields.jsx:95
+#: src/components/storage/iscsi/AuthFields.jsx:100
 #: src/components/users/RootAuthMethods.jsx:159
 msgid "Password"
 msgstr "パスワード"
@@ -196,7 +196,7 @@ msgstr "ユーザのパスワード"
 msgid "Password confirmation"
 msgstr "パスワードの確認"
 
-#: src/components/core/PasswordAndConfirmationInput.jsx:76
+#: src/components/core/PasswordAndConfirmationInput.jsx:74
 msgid "User password confirmation"
 msgstr "ユーザパスワードの確認"
 
@@ -215,9 +215,9 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. TRANSLATORS: dropdown label
-#: src/components/core/RowActions.jsx:62
-#: src/components/storage/ProposalVolumes.jsx:135
-#: src/components/storage/ProposalVolumes.jsx:304
+#: src/components/core/RowActions.jsx:66
+#: src/components/storage/ProposalVolumes.jsx:119
+#: src/components/storage/ProposalVolumes.jsx:306
 msgid "Actions"
 msgstr "処理"
 
@@ -262,18 +262,18 @@ msgstr "オプション"
 msgid "Hide navigation and other options"
 msgstr "ナビゲーションとその他のオプションを隠す"
 
-#: src/components/core/ValidationErrors.jsx:63
+#: src/components/core/ValidationErrors.jsx:62
 msgid "Errors"
 msgstr "エラー"
 
 #. TRANSLATORS: %d is replaced with the number of errors found
-#: src/components/core/ValidationErrors.jsx:86
+#: src/components/core/ValidationErrors.jsx:85
 #, c-format
 msgid "%d error found"
 msgid_plural "%d errors found"
 msgstr[0] "%d 個のエラーが見つかりました"
 
-#: src/components/core/ValidationErrors.jsx:96
+#: src/components/core/ValidationErrors.jsx:95
 msgid "Basic popover"
 msgstr "基本ポップオーバー"
 
@@ -289,32 +289,32 @@ msgid "Localization"
 msgstr "ローカライゼーション"
 
 #. TRANSLATORS: button label
-#: src/components/layout/DBusError.jsx:38
+#: src/components/layout/DBusError.jsx:40
 msgid "Reload"
 msgstr "再読み込み"
 
 #. TRANSLATORS: page title
-#: src/components/layout/DBusError.jsx:46
+#: src/components/layout/DBusError.jsx:48
 msgid "D-Bus Error"
 msgstr "D-Bus エラー"
 
-#: src/components/layout/DBusError.jsx:53
+#: src/components/layout/DBusError.jsx:54
 msgid "Cannot connect to D-Bus"
 msgstr "D-Bus に接続できません"
 
-#: src/components/layout/DBusError.jsx:56
+#: src/components/layout/DBusError.jsx:59
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
 msgstr ""
 "D-Bus サービスに接続できませんでした。 D-Bus サービスが動作中かどうかをご確認"
 "ください。"
 
-#: src/components/layout/Icon.jsx:159
+#: src/components/layout/Icon.jsx:157
 #, c-format
 msgid "Icon %s not found!"
 msgstr "アイコン %s が見つかりませんでした！"
 
-#: src/components/layout/Loading.jsx:28
+#: src/components/layout/Loading.jsx:30
 msgid "Loading installation environment, please wait."
 msgstr "インストール環境を読み込んでいます。しばらくお待ちください。"
 
@@ -374,7 +374,7 @@ msgid "IP addresses"
 msgstr "IP アドレス"
 
 #: src/components/network/ConnectionsTable.jsx:67
-#: src/components/storage/ProposalVolumes.jsx:228
+#: src/components/storage/ProposalVolumes.jsx:230
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:49
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
 #: src/components/users/FirstUser.jsx:170
@@ -485,7 +485,7 @@ msgstr "WiFi 接続が見つかりませんでした"
 
 #. TRANSLATORS: button label
 #: src/components/network/NetworkPage.jsx:70
-#: src/components/network/NetworkPageOptions.jsx:45
+#: src/components/network/NetworkPageOptions.jsx:46
 #: src/components/network/WifiSelector.jsx:134
 msgid "Connect to a Wi-Fi network"
 msgstr "Wi-Fi ネットワークへの接続"
@@ -587,7 +587,7 @@ msgid "%s connection is waiting for an state change"
 msgstr "接続 %s は状態の変化を待っています"
 
 #. TRANSLATORS: menu label, remove the selected WiFi network settings
-#: src/components/network/WifiNetworkMenu.jsx:45
+#: src/components/network/WifiNetworkMenu.jsx:55
 msgid "Forget network"
 msgstr "ネットワークの削除"
 
@@ -749,21 +749,21 @@ msgstr "DASD ストレージ"
 msgid "Back"
 msgstr "戻る"
 
-#: src/components/storage/DASDTable.jsx:55
+#: src/components/storage/DASDTable.jsx:57
 #: src/components/storage/ZFCPPage.jsx:320
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 msgid "No"
 msgstr "いいえ"
 
-#: src/components/storage/DASDTable.jsx:55
+#: src/components/storage/DASDTable.jsx:57
 #: src/components/storage/ZFCPPage.jsx:320
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:71
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 msgid "Yes"
 msgstr "はい"
 
-#: src/components/storage/DASDTable.jsx:62
+#: src/components/storage/DASDTable.jsx:64
 #: src/components/storage/ZFCPDiskForm.jsx:118
 #: src/components/storage/ZFCPPage.jsx:303
 #: src/components/storage/ZFCPPage.jsx:363
@@ -771,7 +771,7 @@ msgid "Channel ID"
 msgstr "チャネル ID"
 
 #. TRANSLATORS: table header
-#: src/components/storage/DASDTable.jsx:63
+#: src/components/storage/DASDTable.jsx:65
 #: src/components/storage/ZFCPPage.jsx:304
 #: src/components/storage/iscsi/NodesPresenter.jsx:104
 #: src/components/storage/iscsi/NodesPresenter.jsx:125
@@ -779,73 +779,73 @@ msgstr "チャネル ID"
 msgid "Status"
 msgstr "状態"
 
-#: src/components/storage/DASDTable.jsx:64
+#: src/components/storage/DASDTable.jsx:66
 msgid "Device"
 msgstr "デバイス"
 
-#: src/components/storage/DASDTable.jsx:65
+#: src/components/storage/DASDTable.jsx:67
 msgid "Type"
 msgstr "種類"
 
-#: src/components/storage/DASDTable.jsx:66
+#: src/components/storage/DASDTable.jsx:68
 msgid "Diag"
 msgstr "診断"
 
-#: src/components/storage/DASDTable.jsx:67
+#: src/components/storage/DASDTable.jsx:69
 msgid "Formatted"
 msgstr "フォーマット済み"
 
-#: src/components/storage/DASDTable.jsx:68
+#: src/components/storage/DASDTable.jsx:70
 msgid "Partition Info"
 msgstr "パーティション情報"
 
+#. TRANSLATORS: drop down menu label
+#: src/components/storage/DASDTable.jsx:105
+msgid "Perform an action"
+msgstr "処理を実行"
+
 #. TRANSLATORS: drop down menu action, activate the device
-#: src/components/storage/DASDTable.jsx:102
+#: src/components/storage/DASDTable.jsx:111
 #: src/components/storage/ZFCPPage.jsx:334
 msgid "Activate"
 msgstr "有効化"
 
 #. TRANSLATORS: drop down menu action, deactivate the device
-#: src/components/storage/DASDTable.jsx:104
+#: src/components/storage/DASDTable.jsx:113
 #: src/components/storage/ZFCPPage.jsx:376
 msgid "Deactivate"
 msgstr "無効化"
 
 #. TRANSLATORS: drop down menu action, enable DIAG access method
-#: src/components/storage/DASDTable.jsx:107
+#: src/components/storage/DASDTable.jsx:116
 msgid "Set DIAG On"
 msgstr "診断を有効化"
 
 #. TRANSLATORS: drop down menu action, disable DIAG access method
-#: src/components/storage/DASDTable.jsx:109
+#: src/components/storage/DASDTable.jsx:118
 msgid "Set DIAG Off"
 msgstr "診断を無効化"
 
 #. TRANSLATORS: drop down menu action, format the disk
-#: src/components/storage/DASDTable.jsx:112
+#: src/components/storage/DASDTable.jsx:121
 msgid "Format"
 msgstr "フォーマット"
 
-#. TRANSLATORS: drop down menu label
-#: src/components/storage/DASDTable.jsx:117
-msgid "Perform an action"
-msgstr "処理を実行"
-
-#: src/components/storage/DASDTable.jsx:195
-#: src/components/storage/DASDTable.jsx:196
+#: src/components/storage/DASDTable.jsx:198
+#: src/components/storage/DASDTable.jsx:199
 msgid "Filter by min channel"
 msgstr "最小チャネルでフィルタ"
 
-#: src/components/storage/DASDTable.jsx:203
+#: src/components/storage/DASDTable.jsx:206
 msgid "Remove min channel filter"
 msgstr "最小チャネルのフィルタを削除"
 
-#: src/components/storage/DASDTable.jsx:216
-#: src/components/storage/DASDTable.jsx:217
+#: src/components/storage/DASDTable.jsx:219
+#: src/components/storage/DASDTable.jsx:220
 msgid "Filter by max channel"
 msgstr "最大チャネルでフィルタ"
 
-#: src/components/storage/DASDTable.jsx:224
+#: src/components/storage/DASDTable.jsx:227
 msgid "Remove max channel filter"
 msgstr "最大チャネルのフィルタを削除"
 
@@ -969,91 +969,91 @@ msgid "Settings"
 msgstr "設定"
 
 #. TRANSLATORS: header for a list of items
-#: src/components/storage/ProposalVolumes.jsx:58
+#: src/components/storage/ProposalVolumes.jsx:59
 msgid "These limits are affected by:"
 msgstr "これらの制限は下記による影響を受けます:"
 
 #. TRANSLATORS: list item, this affects the computed partition size limits
-#: src/components/storage/ProposalVolumes.jsx:62
+#: src/components/storage/ProposalVolumes.jsx:63
 msgid "The configuration of snapshots"
 msgstr "スナップショットの設定"
 
 #. TRANSLATORS: list item, this affects the computed partition size limits
 #. %s is replaced by a list of the volumes (like "/home, /boot")
-#: src/components/storage/ProposalVolumes.jsx:66
+#: src/components/storage/ProposalVolumes.jsx:67
 #, c-format
 msgid "Presence of other volumes (%s)"
 msgstr "その他のボリューム (%s) の存在"
 
 #. TRANSLATORS: dropdown menu label
-#: src/components/storage/ProposalVolumes.jsx:121
+#: src/components/storage/ProposalVolumes.jsx:129
 msgid "Reset to defaults"
 msgstr "規定値に戻す"
 
 #. TRANSLATORS: dropdown menu label
-#: src/components/storage/ProposalVolumes.jsx:129
-#: src/components/storage/ProposalVolumes.jsx:139
+#: src/components/storage/ProposalVolumes.jsx:137
+#: src/components/storage/ProposalVolumes.jsx:141
 msgid "Add file system"
 msgstr "ファイルシステムの追加"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
-#: src/components/storage/ProposalVolumes.jsx:189
+#: src/components/storage/ProposalVolumes.jsx:191
 #, c-format
 msgid "At least %s"
 msgstr "少なくとも %s"
 
 #. TRANSLATORS: device flag, the partition size is automatically computed
-#: src/components/storage/ProposalVolumes.jsx:195
+#: src/components/storage/ProposalVolumes.jsx:197
 msgid "auto"
 msgstr "自動"
 
 #. TRANSLATORS: the filesystem uses a logical volume (LVM)
-#: src/components/storage/ProposalVolumes.jsx:204
+#: src/components/storage/ProposalVolumes.jsx:206
 msgid "logical volume"
 msgstr "論理ボリューム"
 
-#: src/components/storage/ProposalVolumes.jsx:204
+#: src/components/storage/ProposalVolumes.jsx:206
 msgid "partition"
 msgstr "パーティション"
 
 #. TRANSLATORS: filesystem flag, it uses an encryption
-#: src/components/storage/ProposalVolumes.jsx:212
+#: src/components/storage/ProposalVolumes.jsx:214
 msgid "encrypted"
 msgstr "暗号化"
 
 #. TRANSLATORS: filesystem flag, it allows creating snapshots
-#: src/components/storage/ProposalVolumes.jsx:214
+#: src/components/storage/ProposalVolumes.jsx:216
 msgid "with snapshots"
 msgstr "スナップショット有り"
 
-#: src/components/storage/ProposalVolumes.jsx:223
+#: src/components/storage/ProposalVolumes.jsx:225
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr "削除"
 
-#: src/components/storage/ProposalVolumes.jsx:269
+#: src/components/storage/ProposalVolumes.jsx:271
 msgid "Edit file system"
 msgstr "ファイルシステムの編集"
 
-#: src/components/storage/ProposalVolumes.jsx:301
-#: src/components/storage/VolumeForm.jsx:490
+#: src/components/storage/ProposalVolumes.jsx:303
+#: src/components/storage/VolumeForm.jsx:498
 msgid "Mount point"
 msgstr "マウントポイント"
 
-#: src/components/storage/ProposalVolumes.jsx:302
+#: src/components/storage/ProposalVolumes.jsx:304
 msgid "Details"
 msgstr "詳細"
 
-#: src/components/storage/ProposalVolumes.jsx:303
-#: src/components/storage/VolumeForm.jsx:507
+#: src/components/storage/ProposalVolumes.jsx:305
+#: src/components/storage/VolumeForm.jsx:515
 msgid "Size"
 msgstr "サイズ"
 
-#: src/components/storage/ProposalVolumes.jsx:339
+#: src/components/storage/ProposalVolumes.jsx:341
 msgid "Table with mount points"
 msgstr "マウントポイントの一覧"
 
-#: src/components/storage/ProposalVolumes.jsx:402
+#: src/components/storage/ProposalVolumes.jsx:404
 msgid "File systems to create in your system"
 msgstr "お使いのシステム内で作成するファイルシステム"
 
@@ -1095,16 +1095,16 @@ msgid "Exact size for the file system."
 msgstr "ファイルシステムに対する正確なサイズです。"
 
 #. TRANSLATORS: requested partition size
-#: src/components/storage/VolumeForm.jsx:146
+#: src/components/storage/VolumeForm.jsx:145
 msgid "Exact size"
 msgstr "正確なサイズ"
 
 #. TRANSLATORS: units selector (like KiB, MiB, GiB...)
-#: src/components/storage/VolumeForm.jsx:159
+#: src/components/storage/VolumeForm.jsx:160
 msgid "Size unit"
 msgstr "サイズの単位"
 
-#: src/components/storage/VolumeForm.jsx:185
+#: src/components/storage/VolumeForm.jsx:188
 msgid ""
 "Limits for the file system size. The final size will be a value between the "
 "given minimum and maximum. If no maximum is given then the file system will "
@@ -1115,61 +1115,61 @@ msgstr ""
 "に設定されます。"
 
 #. TRANSLATORS: the minimal partition size
-#: src/components/storage/VolumeForm.jsx:192
+#: src/components/storage/VolumeForm.jsx:195
 msgid "Minimum"
 msgstr "最小"
 
 #. TRANSLATORS: the minium partition size
-#: src/components/storage/VolumeForm.jsx:203
+#: src/components/storage/VolumeForm.jsx:205
 msgid "Minimum desired size"
 msgstr "最小必須サイズ"
 
-#: src/components/storage/VolumeForm.jsx:210
+#: src/components/storage/VolumeForm.jsx:214
 msgid "Unit for the minimum size"
 msgstr "最小サイズの単位"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeForm.jsx:219
+#: src/components/storage/VolumeForm.jsx:225
 msgid "Maximum"
 msgstr "最大"
 
 #. TRANSLATORS: the maximum partition size
-#: src/components/storage/VolumeForm.jsx:231
+#: src/components/storage/VolumeForm.jsx:236
 msgid "Maximum desired size"
 msgstr "最大要求サイズ"
 
-#: src/components/storage/VolumeForm.jsx:238
+#: src/components/storage/VolumeForm.jsx:244
 msgid "Unit for the maximum size"
 msgstr "最大サイズの単位"
 
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
-#: src/components/storage/VolumeForm.jsx:253
+#: src/components/storage/VolumeForm.jsx:261
 msgid "Auto"
 msgstr "自動"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
-#: src/components/storage/VolumeForm.jsx:255
+#: src/components/storage/VolumeForm.jsx:263
 msgid "Fixed"
 msgstr "固定値"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
-#: src/components/storage/VolumeForm.jsx:257
+#: src/components/storage/VolumeForm.jsx:265
 msgid "Range"
 msgstr "範囲"
 
-#: src/components/storage/VolumeForm.jsx:460
+#: src/components/storage/VolumeForm.jsx:468
 msgid "A size value is required"
 msgstr "サイズを指定する必要があります"
 
-#: src/components/storage/VolumeForm.jsx:465
+#: src/components/storage/VolumeForm.jsx:473
 msgid "Minimum size is required"
 msgstr "最小サイズを指定する必要があります"
 
-#: src/components/storage/VolumeForm.jsx:469
+#: src/components/storage/VolumeForm.jsx:477
 msgid "Maximum must be greater than minimum"
 msgstr "最大サイズは最小サイズより大きくなければなりません"
 
-#: src/components/storage/VolumeForm.jsx:499
+#: src/components/storage/VolumeForm.jsx:507
 msgid "File system type"
 msgstr "ファイルシステムの種類"
 
@@ -1339,29 +1339,29 @@ msgid "Authentication by target"
 msgstr "ターゲットによる認証"
 
 #: src/components/storage/iscsi/AuthFields.jsx:80
+#: src/components/storage/iscsi/AuthFields.jsx:85
 #: src/components/storage/iscsi/AuthFields.jsx:87
-#: src/components/storage/iscsi/AuthFields.jsx:89
-#: src/components/storage/iscsi/AuthFields.jsx:114
-#: src/components/storage/iscsi/AuthFields.jsx:121
-#: src/components/storage/iscsi/AuthFields.jsx:123
+#: src/components/storage/iscsi/AuthFields.jsx:112
+#: src/components/storage/iscsi/AuthFields.jsx:117
+#: src/components/storage/iscsi/AuthFields.jsx:119
 msgid "User name"
 msgstr "ユーザ名"
 
-#: src/components/storage/iscsi/AuthFields.jsx:81
-#: src/components/storage/iscsi/AuthFields.jsx:115
+#: src/components/storage/iscsi/AuthFields.jsx:91
+#: src/components/storage/iscsi/AuthFields.jsx:124
 msgid "Incorrect user name"
 msgstr "ユーザ名が正しくありません"
 
-#: src/components/storage/iscsi/AuthFields.jsx:97
-#: src/components/storage/iscsi/AuthFields.jsx:132
+#: src/components/storage/iscsi/AuthFields.jsx:105
+#: src/components/storage/iscsi/AuthFields.jsx:139
 msgid "Incorrect password"
 msgstr "パスワードが正しくありません"
 
-#: src/components/storage/iscsi/AuthFields.jsx:110
+#: src/components/storage/iscsi/AuthFields.jsx:108
 msgid "Authentication by initiator"
 msgstr "イニシエータによる認証"
 
-#: src/components/storage/iscsi/AuthFields.jsx:138
+#: src/components/storage/iscsi/AuthFields.jsx:133
 msgid "Target Password"
 msgstr "ターゲットのパスワード"
 
@@ -1379,24 +1379,24 @@ msgstr "正しい値を設定しているかどうかご確認ください"
 msgid "IP address"
 msgstr "IP アドレス"
 
-#: src/components/storage/iscsi/DiscoverForm.jsx:117
-msgid "Incorrect IP address"
-msgstr "IP アドレスが正しくありません"
-
 #. TRANSLATORS: network address
+#: src/components/storage/iscsi/DiscoverForm.jsx:122
 #: src/components/storage/iscsi/DiscoverForm.jsx:124
-#: src/components/storage/iscsi/DiscoverForm.jsx:126
 msgid "Address"
 msgstr "アドレス"
 
+#: src/components/storage/iscsi/DiscoverForm.jsx:129
+msgid "Incorrect IP address"
+msgstr "IP アドレスが正しくありません"
+
 #. TRANSLATORS: network port number
-#: src/components/storage/iscsi/DiscoverForm.jsx:134
-#: src/components/storage/iscsi/DiscoverForm.jsx:143
-#: src/components/storage/iscsi/DiscoverForm.jsx:145
+#: src/components/storage/iscsi/DiscoverForm.jsx:133
+#: src/components/storage/iscsi/DiscoverForm.jsx:140
+#: src/components/storage/iscsi/DiscoverForm.jsx:142
 msgid "Port"
 msgstr "ポート"
 
-#: src/components/storage/iscsi/DiscoverForm.jsx:136
+#: src/components/storage/iscsi/DiscoverForm.jsx:147
 msgid "Incorrect port"
 msgstr "ポートが正しくありません"
 
@@ -1571,12 +1571,12 @@ msgstr "ユーザのフルネーム"
 msgid "Edit password too"
 msgstr "パスワードも編集する"
 
-#: src/components/users/FirstUser.jsx:242
+#: src/components/users/FirstUser.jsx:240
 msgid "user autologin"
 msgstr "ユーザの自動ログイン"
 
 #. TRANSLATORS: check box label
-#: src/components/users/FirstUser.jsx:246
+#: src/components/users/FirstUser.jsx:244
 msgid "Auto-login"
 msgstr "自動ログイン"
 
