@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-04 02:07+0000\n"
-"PO-Revision-Date: 2023-10-01 17:15+0000\n"
-"Last-Translator: Victor hck <correohck@gmail.com>\n"
+"PO-Revision-Date: 2023-10-06 18:15+0000\n"
+"Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
 "Language: es\n"
@@ -907,7 +907,6 @@ msgid "Connect to iSCSI targets"
 msgstr "Conectar a objetivos iSCSI"
 
 #: src/components/storage/ProposalPageOptions.jsx:78
-#, fuzzy
 msgid "iSCSI"
 msgstr "iSCSI"
 
@@ -1078,7 +1077,6 @@ msgstr "la presencia del sistema de archivos para %s"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeForm.jsx:103
-#, fuzzy
 msgid ", "
 msgstr ", "
 
@@ -1188,14 +1186,12 @@ msgstr "El disco zFCP no estaba activado."
 #. TRANSLATORS: abbrev. World Wide Port Name
 #: src/components/storage/ZFCPDiskForm.jsx:129
 #: src/components/storage/ZFCPPage.jsx:364
-#, fuzzy
 msgid "WWPN"
 msgstr "WWPN"
 
 #. TRANSLATORS: abbrev. Logical Unit Number
 #: src/components/storage/ZFCPDiskForm.jsx:140
 #: src/components/storage/ZFCPPage.jsx:365
-#, fuzzy
 msgid "LUN"
 msgstr "LUN"
 
@@ -1286,13 +1282,13 @@ msgstr "Ruta múltiple"
 
 #. TRANSLATORS: %s is replaced by the device bus ID
 #: src/components/storage/device-utils.jsx:103
-#, fuzzy, c-format
+#, c-format
 msgid "DASD %s"
 msgstr "DASD %s"
 
 #. TRANSLATORS: software RAID device, %s is replaced by the RAID level, e.g. RAID-1
 #: src/components/storage/device-utils.jsx:108
-#, fuzzy, c-format
+#, c-format
 msgid "Software %s"
 msgstr "Software %s"
 
@@ -1432,7 +1428,6 @@ msgstr "Nombre del iniciador"
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:86
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 #: src/components/storage/iscsi/NodesPresenter.jsx:124
-#, fuzzy
 msgid "iBFT"
 msgstr "iBFT"
 
@@ -1516,29 +1511,24 @@ msgid "Targets"
 msgstr "Objetivos"
 
 #: src/components/storage/utils.js:44
-#, fuzzy
 msgid "KiB"
-msgstr "KiB"
+msgstr "KB"
 
 #: src/components/storage/utils.js:45
-#, fuzzy
 msgid "MiB"
-msgstr "MiB"
+msgstr "MB"
 
 #: src/components/storage/utils.js:46
-#, fuzzy
 msgid "GiB"
-msgstr "GiB"
+msgstr "GB"
 
 #: src/components/storage/utils.js:47
-#, fuzzy
 msgid "TiB"
-msgstr "TiB"
+msgstr "TB"
 
 #: src/components/storage/utils.js:48
-#, fuzzy
 msgid "PiB"
-msgstr "PiB"
+msgstr "PB"
 
 #: src/components/users/FirstUser.jsx:45
 msgid ""
