@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-04 02:07+0000\n"
+"POT-Creation-Date: 2023-10-08 02:09+0000\n"
 "PO-Revision-Date: 2023-09-11 13:15+0000\n"
 "Last-Translator: Alex Minton <alex239@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -20,7 +20,7 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.9.1\n"
 
-#: src/App.jsx:90
+#: src/App.jsx:82
 msgid "Diagnostic tools"
 msgstr "Утилиты диагностики"
 
@@ -56,6 +56,27 @@ msgstr ""
 #: src/components/network/WifiSelector.jsx:151
 msgid "Close"
 msgstr "Закрыть"
+
+#. TRANSLATORS: button label
+#: src/components/core/DBusError.jsx:40
+msgid "Reload"
+msgstr "Обновить"
+
+#. TRANSLATORS: page title
+#: src/components/core/DBusError.jsx:48
+msgid "D-Bus Error"
+msgstr "Ошибка D-Bus"
+
+#: src/components/core/DBusError.jsx:54
+msgid "Cannot connect to D-Bus"
+msgstr "Не удалось подключиться к службе D-Bus"
+
+#: src/components/core/DBusError.jsx:59
+msgid ""
+"Could not connect to the D-Bus service. Please, check whether it is running."
+msgstr ""
+"Не удалось подключиться к службе D-Bus. Пожалуйста, проверьте, запущена ли "
+"она."
 
 #: src/components/core/FileViewer.jsx:65
 msgid "Reading file..."
@@ -98,7 +119,7 @@ msgstr "Обнаружены проблемы"
 #: src/components/storage/ProposalSettingsSection.jsx:359
 #: src/components/storage/ProposalSettingsSection.jsx:504
 #: src/components/storage/ProposalVolumes.jsx:148
-#: src/components/storage/ProposalVolumes.jsx:279
+#: src/components/storage/ProposalVolumes.jsx:282
 #: src/components/storage/ZFCPPage.jsx:513
 msgid "Accept"
 msgstr "Подтвердить"
@@ -222,7 +243,7 @@ msgstr "Отмена"
 #. TRANSLATORS: dropdown label
 #: src/components/core/RowActions.jsx:66
 #: src/components/storage/ProposalVolumes.jsx:119
-#: src/components/storage/ProposalVolumes.jsx:306
+#: src/components/storage/ProposalVolumes.jsx:309
 msgid "Actions"
 msgstr "Действия"
 
@@ -295,27 +316,6 @@ msgstr "Язык"
 msgid "Localization"
 msgstr "Локализация"
 
-#. TRANSLATORS: button label
-#: src/components/layout/DBusError.jsx:40
-msgid "Reload"
-msgstr "Обновить"
-
-#. TRANSLATORS: page title
-#: src/components/layout/DBusError.jsx:48
-msgid "D-Bus Error"
-msgstr "Ошибка D-Bus"
-
-#: src/components/layout/DBusError.jsx:54
-msgid "Cannot connect to D-Bus"
-msgstr "Не удалось подключиться к службе D-Bus"
-
-#: src/components/layout/DBusError.jsx:59
-msgid ""
-"Could not connect to the D-Bus service. Please, check whether it is running."
-msgstr ""
-"Не удалось подключиться к службе D-Bus. Пожалуйста, проверьте, запущена ли "
-"она."
-
 #: src/components/layout/Icon.jsx:157
 #, c-format
 msgid "Icon %s not found!"
@@ -381,7 +381,7 @@ msgid "IP addresses"
 msgstr "IP-адреса"
 
 #: src/components/network/ConnectionsTable.jsx:67
-#: src/components/storage/ProposalVolumes.jsx:230
+#: src/components/storage/ProposalVolumes.jsx:233
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:49
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
 #: src/components/users/FirstUser.jsx:170
@@ -1015,52 +1015,57 @@ msgid "auto"
 msgstr ""
 
 #. TRANSLATORS: the filesystem uses a logical volume (LVM)
-#: src/components/storage/ProposalVolumes.jsx:206
+#: src/components/storage/ProposalVolumes.jsx:207
 msgid "logical volume"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:206
+#: src/components/storage/ProposalVolumes.jsx:207
 msgid "partition"
 msgstr ""
 
 #. TRANSLATORS: filesystem flag, it uses an encryption
-#: src/components/storage/ProposalVolumes.jsx:214
+#: src/components/storage/ProposalVolumes.jsx:215
 msgid "encrypted"
 msgstr ""
 
 #. TRANSLATORS: filesystem flag, it allows creating snapshots
-#: src/components/storage/ProposalVolumes.jsx:216
+#: src/components/storage/ProposalVolumes.jsx:217
 msgid "with snapshots"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:225
+#. TRANSLATORS: flag for transactional file system
+#: src/components/storage/ProposalVolumes.jsx:219
+msgid "transactional"
+msgstr ""
+
+#: src/components/storage/ProposalVolumes.jsx:228
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:271
+#: src/components/storage/ProposalVolumes.jsx:274
 msgid "Edit file system"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:303
+#: src/components/storage/ProposalVolumes.jsx:306
 #: src/components/storage/VolumeForm.jsx:498
 msgid "Mount point"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:304
+#: src/components/storage/ProposalVolumes.jsx:307
 msgid "Details"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:305
+#: src/components/storage/ProposalVolumes.jsx:308
 #: src/components/storage/VolumeForm.jsx:515
 msgid "Size"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:341
+#: src/components/storage/ProposalVolumes.jsx:344
 msgid "Table with mount points"
 msgstr ""
 
-#: src/components/storage/ProposalVolumes.jsx:404
+#: src/components/storage/ProposalVolumes.jsx:407
 msgid "File systems to create in your system"
 msgstr ""
 
