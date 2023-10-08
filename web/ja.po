@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-08 02:09+0000\n"
-"PO-Revision-Date: 2023-09-28 05:15+0000\n"
+"PO-Revision-Date: 2023-10-08 05:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -1028,10 +1028,8 @@ msgstr "スナップショット有り"
 
 #. TRANSLATORS: flag for transactional file system
 #: src/components/storage/ProposalVolumes.jsx:219
-#, fuzzy
-#| msgid "Perform an action"
 msgid "transactional"
-msgstr "処理を実行"
+msgstr "トランザクション型"
 
 #: src/components/storage/ProposalVolumes.jsx:228
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
