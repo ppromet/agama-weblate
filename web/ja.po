@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-11 02:06+0000\n"
-"PO-Revision-Date: 2023-10-08 05:15+0000\n"
+"PO-Revision-Date: 2023-10-11 09:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -27,19 +27,17 @@ msgstr "診断ツール"
 #: src/DevServerWrapper.jsx:82
 #, c-format
 msgid "The server at %s is not reachable."
-msgstr ""
+msgstr "%s のサーバに到達できません。"
 
 #. TRANSLATORS: error message
 #: src/DevServerWrapper.jsx:88
-#, fuzzy
-#| msgid "Cannot connect to D-Bus"
 msgid "Cannot connect to the Cockpit server"
-msgstr "D-Bus に接続できません"
+msgstr "Cockpit サーバに接続できません"
 
 #. TRANSLATORS: button label
 #: src/DevServerWrapper.jsx:104
 msgid "Try Again"
-msgstr ""
+msgstr "再試行"
 
 #: src/components/core/About.jsx:43 src/components/core/About.jsx:48
 msgid "About Agama"
@@ -118,7 +116,7 @@ msgstr "インストールの確認"
 msgid ""
 "If you continue, partitions on your hard disk will be modified according to "
 "the provided installation settings."
-msgstr ""
+msgstr "続行すると、お使いのコンピュータのハードディスクにあるパーティションは、ここまでのダイアログで設定したとおりに変更されます。"
 
 #: src/components/core/InstallButton.jsx:70
 msgid "Please, cancel and check the settings if you are unsure."
@@ -138,7 +136,7 @@ msgstr "問題点が見つかりました"
 msgid ""
 "Some problems were found when trying to start the installation. Please, have "
 "a look to the reported errors and try again."
-msgstr ""
+msgstr "インストールを開始しようとした際に問題が検出されました。報告されたエラー内容をご確認のうえ、やり直してください。"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:97
