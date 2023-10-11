@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-08 02:09+0000\n"
+"POT-Creation-Date: 2023-10-11 02:06+0000\n"
 "PO-Revision-Date: 2023-09-11 13:15+0000\n"
 "Last-Translator: Alex Minton <alex239@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -23,6 +23,24 @@ msgstr ""
 #: src/App.jsx:82
 msgid "Diagnostic tools"
 msgstr "Утилиты диагностики"
+
+#. TRANSLATORS: error message, %s is replaced by the server URL
+#: src/DevServerWrapper.jsx:82
+#, c-format
+msgid "The server at %s is not reachable."
+msgstr ""
+
+#. TRANSLATORS: error message
+#: src/DevServerWrapper.jsx:88
+#, fuzzy
+#| msgid "Cannot connect to D-Bus"
+msgid "Cannot connect to the Cockpit server"
+msgstr "Не удалось подключиться к службе D-Bus"
+
+#. TRANSLATORS: button label
+#: src/DevServerWrapper.jsx:104
+msgid "Try Again"
+msgstr ""
 
 #: src/components/core/About.jsx:43 src/components/core/About.jsx:48
 msgid "About Agama"
@@ -100,6 +118,12 @@ msgstr ""
 msgid "Confirm Installation"
 msgstr "Подтвердить установку"
 
+#: src/components/core/InstallButton.jsx:66
+msgid ""
+"If you continue, partitions on your hard disk will be modified according to "
+"the provided installation settings."
+msgstr ""
+
 #: src/components/core/InstallButton.jsx:70
 msgid "Please, cancel and check the settings if you are unsure."
 msgstr "Пожалуйста, отмените и проверьте настройки, если вы не уверены."
@@ -112,6 +136,12 @@ msgstr "Продолжить"
 #: src/components/core/InstallButton.jsx:86
 msgid "Problems Found"
 msgstr "Обнаружены проблемы"
+
+#: src/components/core/InstallButton.jsx:90
+msgid ""
+"Some problems were found when trying to start the installation. Please, have "
+"a look to the reported errors and try again."
+msgstr ""
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:97
