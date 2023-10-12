@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-11 02:06+0000\n"
+"POT-Creation-Date: 2023-10-12 02:05+0000\n"
 "PO-Revision-Date: 2023-10-06 18:15+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -643,24 +643,19 @@ msgid_plural "%d connections set:"
 msgstr[0] "%d conexión establecida:"
 msgstr[1] "%d conexiones establecidas:"
 
-#: src/components/overview/SoftwareSection.jsx:36
+#: src/components/overview/SoftwareSection.jsx:37
 msgid "Reading software repositories"
 msgstr "Leer repositorios de software"
 
-#. TRANSLATORS: %s will be replaced by the estimated installation size,
-#. example: "728.8 MiB"
-#: src/components/overview/SoftwareSection.jsx:120
-#, c-format
-msgid "Installation will take %s"
-msgstr "La instalación durará %s"
-
 #. TRANSLATORS: clickable link label
-#: src/components/overview/SoftwareSection.jsx:145
+#: src/components/overview/SoftwareSection.jsx:135
 msgid "Refresh the repositories"
 msgstr "Refrescar los repositorios"
 
+#. TRANSLATORS: page title
 #. TRANSLATORS: page section
-#: src/components/overview/SoftwareSection.jsx:155
+#: src/components/overview/SoftwareSection.jsx:145
+#: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
 msgstr "Software"
 
@@ -744,6 +739,39 @@ msgstr "Contraseña de cifrado"
 msgid "Change product"
 msgstr "Cambiar de producto"
 
+#. TRANSLATORS: pattern status, selected to install (by user)
+#: src/components/software/PatternItem.jsx:63
+#, fuzzy
+#| msgid "Select"
+msgid "selected"
+msgstr "Seleccionar"
+
+#. TRANSLATORS: pattern status, selected to install (by dependencies)
+#: src/components/software/PatternItem.jsx:66
+msgid "automatically selected"
+msgstr ""
+
+#. TRANSLATORS: pattern status, not selected to install
+#: src/components/software/PatternItem.jsx:69
+#, fuzzy
+#| msgid "Not set"
+msgid "not selected"
+msgstr "No establecida"
+
+#. TRANSLATORS: error summary, always plural, %d is replaced by number of errors (2 or more)
+#. if there is just a single error then the error is displayed directly instead of this summary
+#: src/components/software/PatternSelector.jsx:206
+#, fuzzy, c-format
+#| msgid "%d error found"
+#| msgid_plural "%d errors found"
+msgid "%d errors"
+msgstr "%d error encontrado"
+
+#. TRANSLATORS: search field placeholder text
+#: src/components/software/PatternSelector.jsx:214
+msgid "Search"
+msgstr ""
+
 #: src/components/software/ProductSelectionPage.jsx:69
 msgid "Loading available products, please wait..."
 msgstr "Cargando productos disponibles, por favor espere..."
@@ -762,6 +790,22 @@ msgstr "Seleccionar"
 msgid "Choose a product"
 msgstr "Escoger un producto"
 
+#: src/components/software/SoftwarePage.jsx:81
+#: src/components/storage/DASDPage.jsx:187
+#: src/components/storage/ISCSIPage.jsx:39
+#: src/components/storage/ProposalPage.jsx:218
+#: src/components/storage/ZFCPPage.jsx:736
+#: src/components/users/UsersPage.jsx:30
+msgid "Back"
+msgstr "Retroceder"
+
+#. TRANSLATORS: %s will be replaced by the estimated installation size,
+#. example: "728.8 MiB"
+#: src/components/software/UsedSize.jsx:32
+#, c-format
+msgid "Installation will take %s"
+msgstr "La instalación durará %s"
+
 #: src/components/storage/DASDFormatProgress.jsx:61
 msgid "Waiting for progress report"
 msgstr "Esperando el informe de progreso"
@@ -774,14 +818,6 @@ msgstr "Formatear dispositivos DASD"
 #: src/components/storage/DASDPage.jsx:185
 msgid "Storage DASD"
 msgstr "Almacenamiento DASD"
-
-#: src/components/storage/DASDPage.jsx:187
-#: src/components/storage/ISCSIPage.jsx:39
-#: src/components/storage/ProposalPage.jsx:218
-#: src/components/storage/ZFCPPage.jsx:736
-#: src/components/users/UsersPage.jsx:30
-msgid "Back"
-msgstr "Retroceder"
 
 #: src/components/storage/DASDTable.jsx:57
 #: src/components/storage/ZFCPPage.jsx:320
