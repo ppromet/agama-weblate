@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-12 02:05+0000\n"
-"PO-Revision-Date: 2023-10-11 09:15+0000\n"
+"PO-Revision-Date: 2023-10-12 05:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -739,36 +739,30 @@ msgstr "製品の変更"
 
 #. TRANSLATORS: pattern status, selected to install (by user)
 #: src/components/software/PatternItem.jsx:63
-#, fuzzy
-#| msgid "Select"
 msgid "selected"
-msgstr "選択"
+msgstr "選択済み"
 
 #. TRANSLATORS: pattern status, selected to install (by dependencies)
 #: src/components/software/PatternItem.jsx:66
 msgid "automatically selected"
-msgstr ""
+msgstr "自動選択済み"
 
 #. TRANSLATORS: pattern status, not selected to install
 #: src/components/software/PatternItem.jsx:69
-#, fuzzy
-#| msgid "Device not selected yet"
 msgid "not selected"
-msgstr "まだデバイスを選択していません"
+msgstr "未選択"
 
 #. TRANSLATORS: error summary, always plural, %d is replaced by number of errors (2 or more)
 #. if there is just a single error then the error is displayed directly instead of this summary
 #: src/components/software/PatternSelector.jsx:206
-#, fuzzy, c-format
-#| msgid "%d error found"
-#| msgid_plural "%d errors found"
+#, c-format
 msgid "%d errors"
-msgstr "%d 個のエラーが見つかりました"
+msgstr "%d 個のエラー"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/software/PatternSelector.jsx:214
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: src/components/software/ProductSelectionPage.jsx:69
 msgid "Loading available products, please wait..."
