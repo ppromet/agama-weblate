@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-19 02:06+0000\n"
-"PO-Revision-Date: 2023-10-21 02:15+0000\n"
+"PO-Revision-Date: 2023-10-21 23:15+0000\n"
 "Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <https://l10n.opensuse.org/projects/agama/"
 "agama-web/mk/>\n"
@@ -51,6 +51,10 @@ msgid ""
 "want to give it a try, we recommend to use a virtual machine to prevent any "
 "possible data loss."
 msgstr ""
+"Agama е експериментален инсталер за (open)SUSE системи. Сè уште е во развој, "
+"затоа, ве молиме, не го користете во производствени средини. Ако сакате да "
+"го испробате, препорачуваме да користите виртуелна машина за да се спречи "
+"можноста на губење на податоци."
 
 #. TRANSLATORS: content of the "About" popup (2/2)
 #. %s is replaced by the project URL
@@ -65,7 +69,7 @@ msgstr ""
 #: src/components/core/Sidebar.jsx:177 src/components/core/Terminal.jsx:48
 #: src/components/network/WifiSelector.jsx:151
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #. TRANSLATORS: button label
 #: src/components/core/DBusError.jsx:40
