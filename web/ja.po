@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-22 02:10+0000\n"
-"PO-Revision-Date: 2023-10-12 05:15+0000\n"
+"PO-Revision-Date: 2023-10-23 01:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
 "ja/>\n"
@@ -343,10 +343,8 @@ msgid "Localization"
 msgstr "ローカライゼーション"
 
 #: src/components/l10n/LanguageSwitcher.jsx:46
-#, fuzzy
-#| msgid "language"
 msgid "Display Language"
-msgstr "言語"
+msgstr "表示言語"
 
 #: src/components/layout/Icon.jsx:157
 #, c-format
