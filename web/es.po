@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-25 02:06+0000\n"
-"PO-Revision-Date: 2023-10-06 18:15+0000\n"
+"PO-Revision-Date: 2023-10-26 15:15+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
 "es/>\n"
@@ -27,19 +27,17 @@ msgstr "Herramientas de diagnóstico"
 #: src/DevServerWrapper.jsx:82
 #, c-format
 msgid "The server at %s is not reachable."
-msgstr ""
+msgstr "No se puede acceder al servidor en %s."
 
 #. TRANSLATORS: error message
 #: src/DevServerWrapper.jsx:88
-#, fuzzy
-#| msgid "Cannot connect to D-Bus"
 msgid "Cannot connect to the Cockpit server"
-msgstr "No se puede conectar a D-Bus"
+msgstr "No se puede conectar al servidor Cockpit"
 
 #. TRANSLATORS: button label
 #: src/DevServerWrapper.jsx:104
 msgid "Try Again"
-msgstr ""
+msgstr "Intentar de nuevo"
 
 #: src/components/core/About.jsx:43 src/components/core/About.jsx:48
 msgid "About Agama"
@@ -121,6 +119,8 @@ msgid ""
 "If you continue, partitions on your hard disk will be modified according to "
 "the provided installation settings."
 msgstr ""
+"Si continúa, las particiones de su disco duro se modificarán de acuerdo con "
+"la configuración de instalación proporcionada."
 
 #: src/components/core/InstallButton.jsx:70
 msgid "Please, cancel and check the settings if you are unsure."
@@ -140,6 +140,8 @@ msgid ""
 "Some problems were found when trying to start the installation. Please, have "
 "a look to the reported errors and try again."
 msgstr ""
+"Se encontraron algunos problemas al intentar iniciar la instalación. Por "
+"favor, revise los errores reportados y vuelva a intentarlo."
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallButton.jsx:97
@@ -344,10 +346,8 @@ msgid "Localization"
 msgstr "Localización"
 
 #: src/components/l10n/LanguageSwitcher.jsx:46
-#, fuzzy
-#| msgid "language"
 msgid "Display Language"
-msgstr "Idioma"
+msgstr "Mostrar idioma"
 
 #: src/components/layout/Icon.jsx:157
 #, c-format
@@ -748,36 +748,30 @@ msgstr "Cambiar de producto"
 
 #. TRANSLATORS: pattern status, selected to install (by user)
 #: src/components/software/PatternItem.jsx:63
-#, fuzzy
-#| msgid "Select"
 msgid "selected"
-msgstr "Seleccionar"
+msgstr "seleccionado"
 
 #. TRANSLATORS: pattern status, selected to install (by dependencies)
 #: src/components/software/PatternItem.jsx:66
 msgid "automatically selected"
-msgstr ""
+msgstr "seleccionado automáticamente"
 
 #. TRANSLATORS: pattern status, not selected to install
 #: src/components/software/PatternItem.jsx:69
-#, fuzzy
-#| msgid "Not set"
 msgid "not selected"
-msgstr "No establecida"
+msgstr "no seleccionado"
 
 #. TRANSLATORS: error summary, always plural, %d is replaced by number of errors (2 or more)
 #. if there is just a single error then the error is displayed directly instead of this summary
 #: src/components/software/PatternSelector.jsx:206
-#, fuzzy, c-format
-#| msgid "%d error found"
-#| msgid_plural "%d errors found"
+#, c-format
 msgid "%d errors"
-msgstr "%d error encontrado"
+msgstr "%d errores"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/software/PatternSelector.jsx:214
 msgid "Search"
-msgstr ""
+msgstr "Buscar"
 
 #: src/components/software/ProductSelectionPage.jsx:69
 msgid "Loading available products, please wait..."
@@ -1107,10 +1101,8 @@ msgstr "con instantáneas"
 
 #. TRANSLATORS: flag for transactional file system
 #: src/components/storage/ProposalVolumes.jsx:219
-#, fuzzy
-#| msgid "Perform an action"
 msgid "transactional"
-msgstr "Realizar una acción"
+msgstr "transaccional"
 
 #: src/components/storage/ProposalVolumes.jsx:228
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
@@ -1396,7 +1388,7 @@ msgstr "Dispositivos: %s"
 
 #. TRANSLATORS: multipath details, %s is replaced by list of connections used by the device
 #: src/components/storage/device-utils.jsx:152
-#, fuzzy, c-format
+#, c-format
 msgid "Wires: %s"
 msgstr "Wires: %s"
 
