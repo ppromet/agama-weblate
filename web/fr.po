@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-25 02:06+0000\n"
-"PO-Revision-Date: 2023-10-27 21:15+0000\n"
+"PO-Revision-Date: 2023-10-28 03:15+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
 ">\n"
@@ -162,7 +162,7 @@ msgstr "Installer"
 #. TRANSLATORS: button label
 #: src/components/core/InstallationFinished.jsx:44
 msgid "Finish"
-msgstr "Finir"
+msgstr "Terminer"
 
 #. TRANSLATORS: button label
 #: src/components/core/InstallationFinished.jsx:46
@@ -183,12 +183,12 @@ msgstr "L'installation sur votre machine est terminée."
 
 #: src/components/core/InstallationFinished.jsx:78
 msgid "At this point you can power off the machine."
-msgstr "À présent, vous pouvez éteindre la machine."
+msgstr "Vous pouvez à présent éteindre la machine."
 
 #: src/components/core/InstallationFinished.jsx:79
 msgid "At this point you can reboot the machine to log in to the new system."
 msgstr ""
-"À présent, vous pouvez redémarrer la machine pour vous connecter au nouveau "
+"Vous pouvez à présent redémarrer la machine pour vous connecter au nouveau "
 "système."
 
 #: src/components/core/InstallationFinished.jsx:82
@@ -281,7 +281,7 @@ msgstr "Actions"
 #: src/components/core/SectionSkeleton.jsx:29
 #: src/components/core/SectionSkeleton.jsx:34
 msgid "Waiting"
-msgstr "Attente"
+msgstr "En attente"
 
 #. TRANSLATORS: button label
 #: src/components/core/ShowLogButton.jsx:47
@@ -333,7 +333,7 @@ msgstr[1] "erreurs %d trouvées"
 
 #: src/components/core/ValidationErrors.jsx:95
 msgid "Basic popover"
-msgstr "Fenêtre contextuelle basique"
+msgstr "Popover basique"
 
 #: src/components/l10n/L10nPage.jsx:72
 #: src/components/l10n/LanguageSwitcher.jsx:50
@@ -671,7 +671,7 @@ msgstr "Logiciel"
 #: src/components/overview/StorageSection.jsx:36
 #: src/components/storage/ProposalSettingsSection.jsx:122
 msgid "No device selected yet"
-msgstr "Aucun appareil n'a encore été sélectionné"
+msgstr "Aucun périphérique n'a encore été sélectionné"
 
 #. TRANSLATORS: %s will be replaced by the device name and its size,
 #. example: "/dev/sda, 20 GiB"
@@ -711,15 +711,15 @@ msgstr ""
 
 #: src/components/overview/UsersSection.jsx:102
 msgid "No root authentication method defined"
-msgstr "Aucune méthode d'authentification Root n'est définie"
+msgstr "Aucune méthode d'authentification root n'est définie"
 
 #: src/components/overview/UsersSection.jsx:103
 msgid "Root authentication set for using password"
-msgstr ""
+msgstr "Authentification root définie pour utiliser le mot de passe"
 
 #: src/components/overview/UsersSection.jsx:104
 msgid "Root authentication set for using public SSH Key"
-msgstr "Authentification Root pour l'utilisation d'une clé SSH publique"
+msgstr "Authentification root pour l'utilisation d'une clé SSH publique"
 
 #. TRANSLATORS: page section title
 #: src/components/overview/UsersSection.jsx:120
@@ -735,7 +735,7 @@ msgstr "Question"
 #. TRANSLATORS: error message, user entered a wrong password
 #: src/components/questions/LuksActivationQuestion.jsx:34
 msgid "Given encryption password didn't work"
-msgstr "Le mot de passe de chiffrement donné n'a pas fonctionné"
+msgstr "Le mot de passe de déchiffrement saisi est incorrect"
 
 #: src/components/questions/LuksActivationQuestion.jsx:59
 msgid "Encrypted Device"
@@ -843,7 +843,7 @@ msgstr "Oui"
 #: src/components/storage/ZFCPPage.jsx:303
 #: src/components/storage/ZFCPPage.jsx:363
 msgid "Channel ID"
-msgstr ""
+msgstr "ID du canal"
 
 #. TRANSLATORS: table header
 #: src/components/storage/DASDTable.jsx:65
@@ -852,11 +852,11 @@ msgstr ""
 #: src/components/storage/iscsi/NodesPresenter.jsx:125
 #: src/components/users/RootAuthMethods.jsx:153
 msgid "Status"
-msgstr ""
+msgstr "Statut"
 
 #: src/components/storage/DASDTable.jsx:66
 msgid "Device"
-msgstr ""
+msgstr "Périphérique"
 
 #: src/components/storage/DASDTable.jsx:67
 msgid "Type"
@@ -864,7 +864,7 @@ msgstr "Type"
 
 #: src/components/storage/DASDTable.jsx:68
 msgid "Diag"
-msgstr ""
+msgstr "Diagnostic"
 
 #: src/components/storage/DASDTable.jsx:69
 msgid "Formatted"
@@ -894,12 +894,12 @@ msgstr "Désactiver"
 #. TRANSLATORS: drop down menu action, enable DIAG access method
 #: src/components/storage/DASDTable.jsx:116
 msgid "Set DIAG On"
-msgstr ""
+msgstr "Activer le diagnostic"
 
 #. TRANSLATORS: drop down menu action, disable DIAG access method
 #: src/components/storage/DASDTable.jsx:118
 msgid "Set DIAG Off"
-msgstr ""
+msgstr "Désactiver le diagnostic"
 
 #. TRANSLATORS: drop down menu action, format the disk
 #: src/components/storage/DASDTable.jsx:121
@@ -909,20 +909,20 @@ msgstr "Format"
 #: src/components/storage/DASDTable.jsx:198
 #: src/components/storage/DASDTable.jsx:199
 msgid "Filter by min channel"
-msgstr ""
+msgstr "Filtrer par canal minimal"
 
 #: src/components/storage/DASDTable.jsx:206
 msgid "Remove min channel filter"
-msgstr ""
+msgstr "Supprimer le filtre canal minimal"
 
 #: src/components/storage/DASDTable.jsx:219
 #: src/components/storage/DASDTable.jsx:220
 msgid "Filter by max channel"
-msgstr ""
+msgstr "Filtrer par canal maximal"
 
 #: src/components/storage/DASDTable.jsx:227
 msgid "Remove max channel filter"
-msgstr ""
+msgstr "Supprimer le filtre du canal maximal"
 
 #. TRANSLATORS: page title for iSCSI configuration
 #: src/components/storage/ISCSIPage.jsx:36
@@ -973,7 +973,7 @@ msgstr "Activer les disques"
 
 #: src/components/storage/ProposalPageOptions.jsx:60
 msgid "zFCP"
-msgstr ""
+msgstr "zFCP"
 
 #: src/components/storage/ProposalPageOptions.jsx:76
 msgid "Connect to iSCSI targets"
@@ -1003,13 +1003,15 @@ msgstr "Périphériques pour la création du groupe de volumes"
 
 #: src/components/storage/ProposalSettingsSection.jsx:246
 msgid "Custom devices"
-msgstr ""
+msgstr "Périphériques personnalisés"
 
 #: src/components/storage/ProposalSettingsSection.jsx:310
 msgid ""
 "Configuration of the system volume group. All the file systems will be "
 "created in a logical volume of the system volume group."
 msgstr ""
+"Configuration du groupe de volumes système. Tous les systèmes de fichiers "
+"seront créés dans un volume logique du groupe de volume système."
 
 #: src/components/storage/ProposalSettingsSection.jsx:316
 msgid "Configure the LVM settings"
@@ -1082,7 +1084,7 @@ msgstr "Au moins %s"
 #. TRANSLATORS: device flag, the partition size is automatically computed
 #: src/components/storage/ProposalVolumes.jsx:197
 msgid "auto"
-msgstr ""
+msgstr "auto"
 
 #. TRANSLATORS: the filesystem uses a logical volume (LVM)
 #: src/components/storage/ProposalVolumes.jsx:207
@@ -1106,12 +1108,12 @@ msgstr "avec des clichés"
 #. TRANSLATORS: flag for transactional file system
 #: src/components/storage/ProposalVolumes.jsx:219
 msgid "transactional"
-msgstr ""
+msgstr "transactionnel"
 
 #: src/components/storage/ProposalVolumes.jsx:228
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: src/components/storage/ProposalVolumes.jsx:274
 msgid "Edit file system"
@@ -1228,17 +1230,17 @@ msgstr "Unité de la taille maximale"
 #. TRANSLATORS: radio button label, fully automatically computed partition size, no user input
 #: src/components/storage/VolumeForm.jsx:262
 msgid "Auto"
-msgstr ""
+msgstr "Auto"
 
 #. TRANSLATORS: radio button label, exact partition size requested by user
 #: src/components/storage/VolumeForm.jsx:264
 msgid "Fixed"
-msgstr ""
+msgstr "Fixe"
 
 #. TRANSLATORS: radio button label, automatically computed partition size within the user provided min and max limits
 #: src/components/storage/VolumeForm.jsx:266
 msgid "Range"
-msgstr ""
+msgstr "Portée"
 
 #: src/components/storage/VolumeForm.jsx:470
 msgid "A size value is required"
@@ -1264,25 +1266,25 @@ msgstr "Le disque zFCP n'a pas été activé."
 #: src/components/storage/ZFCPDiskForm.jsx:129
 #: src/components/storage/ZFCPPage.jsx:364
 msgid "WWPN"
-msgstr ""
+msgstr "WWPN"
 
 #. TRANSLATORS: abbrev. Logical Unit Number
 #: src/components/storage/ZFCPDiskForm.jsx:140
 #: src/components/storage/ZFCPPage.jsx:365
 msgid "LUN"
-msgstr ""
+msgstr "LUN"
 
 #: src/components/storage/ZFCPPage.jsx:305
 msgid "Auto LUNs Scan"
-msgstr ""
+msgstr "Balayage LUN automatique"
 
 #: src/components/storage/ZFCPPage.jsx:316
 msgid "Activated"
-msgstr ""
+msgstr "Activé"
 
 #: src/components/storage/ZFCPPage.jsx:316
 msgid "Deactivated"
-msgstr ""
+msgstr "Désactivé"
 
 #: src/components/storage/ZFCPPage.jsx:419
 msgid "No zFCP controllers found"
@@ -1290,12 +1292,12 @@ msgstr "Aucun contrôleur zFCP n'a été trouvé"
 
 #: src/components/storage/ZFCPPage.jsx:420
 msgid "Please, try to read the zFCP devices again."
-msgstr ""
+msgstr "Veuillez essayez de lire à nouveau périphériques zFCP."
 
 #. TRANSLATORS: button label
 #: src/components/storage/ZFCPPage.jsx:422
 msgid "Read zFCP devices"
-msgstr "Lecture des périphériques zFCP"
+msgstr "Lire les périphériques zFCP"
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:431
@@ -1303,6 +1305,8 @@ msgid ""
 "Automatic LUN scan is [enabled]. Activating a controller which is running in "
 "NPIV mode will automatically configures all its LUNs."
 msgstr ""
+"Le balayage automatique des LUN est [activé]. L'activation d'un contrôleur "
+"fonctionnant en mode NPIV configurera automatiquement toutes ses LUN."
 
 #. TRANSLATORS: the text in the square brackets [] will be displayed in bold
 #: src/components/storage/ZFCPPage.jsx:434
@@ -1310,6 +1314,8 @@ msgid ""
 "Automatic LUN scan is [disabled]. LUNs have to be manually configured after "
 "activating a controller."
 msgstr ""
+"Le balayage automatique des LUN est [désactivé]. Les LUN doivent être "
+"configurés manuellement après l'activation d'un contrôleur."
 
 #: src/components/storage/ZFCPPage.jsx:500
 msgid "Activate a zFCP disk"
@@ -1350,7 +1356,7 @@ msgstr "Stockage zFCP"
 #. TRANSLATORS: multipath device type
 #: src/components/storage/device-utils.jsx:98
 msgid "Multipath"
-msgstr ""
+msgstr "Chemins multiples"
 
 #. TRANSLATORS: %s is replaced by the device bus ID
 #: src/components/storage/device-utils.jsx:103
@@ -1390,7 +1396,7 @@ msgstr "Périphériques : %s"
 #: src/components/storage/device-utils.jsx:152
 #, c-format
 msgid "Wires: %s"
-msgstr ""
+msgstr "Chemins: %s"
 
 #. TRANSLATORS: disk partition info, %s is replaced by partition table
 #. type (MS-DOS or GPT), %d is the number of the partitions
@@ -1438,11 +1444,11 @@ msgstr "Mot de passe incorrect"
 
 #: src/components/storage/iscsi/AuthFields.jsx:108
 msgid "Authentication by initiator"
-msgstr ""
+msgstr "Authentification par initiateur"
 
 #: src/components/storage/iscsi/AuthFields.jsx:133
 msgid "Target Password"
-msgstr ""
+msgstr "Mot de passe cible"
 
 #. TRANSLATORS: popup title
 #: src/components/storage/iscsi/DiscoverForm.jsx:101
@@ -1501,12 +1507,12 @@ msgstr "Nom de l'initiateur"
 #: src/components/storage/iscsi/NodesPresenter.jsx:103
 #: src/components/storage/iscsi/NodesPresenter.jsx:124
 msgid "iBFT"
-msgstr "Nom de l'initiateur"
+msgstr "iBFT"
 
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:72
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:87
 msgid "Offload card"
-msgstr ""
+msgstr "Carte de décharge"
 
 #. TRANSLATORS: iSCSI initiator section name
 #: src/components/storage/iscsi/InitiatorSection.jsx:50
@@ -1517,7 +1523,7 @@ msgstr "Initiateur"
 #: src/components/storage/iscsi/LoginForm.jsx:69
 #, c-format
 msgid "Login %s"
-msgstr ""
+msgstr "Connexion %s"
 
 #. TRANSLATORS: iSCSI start up mode (on boot/manual/automatic)
 #: src/components/storage/iscsi/LoginForm.jsx:76
@@ -1630,7 +1636,7 @@ msgstr "Nom d'utilisateur"
 #: src/components/users/RootAuthMethods.jsx:95
 #: src/components/users/RootAuthMethods.jsx:107
 msgid "Discard"
-msgstr ""
+msgstr "Rejeter"
 
 #: src/components/users/FirstUser.jsx:191
 msgid "Create user account"
