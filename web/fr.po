@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-29 02:08+0000\n"
-"PO-Revision-Date: 2023-10-28 03:15+0000\n"
+"PO-Revision-Date: 2023-10-29 15:15+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
 ">\n"
@@ -1073,7 +1073,7 @@ msgstr "Rétablir les valeurs par défaut"
 #: src/components/storage/ProposalVolumes.jsx:137
 #: src/components/storage/ProposalVolumes.jsx:141
 msgid "Add file system"
-msgstr "Ajouter un système de fichier"
+msgstr "Ajouter un système de fichiers"
 
 #. TRANSLATORS: minimum device size, %s is replaced by size string, e.g. "17.5 GiB"
 #: src/components/storage/ProposalVolumes.jsx:191
@@ -1117,7 +1117,7 @@ msgstr "Supprimer"
 
 #: src/components/storage/ProposalVolumes.jsx:274
 msgid "Edit file system"
-msgstr "Modifier le système de fichier"
+msgstr "Modifier le système de fichiers"
 
 #: src/components/storage/ProposalVolumes.jsx:306
 #: src/components/storage/VolumeForm.jsx:500
@@ -1139,7 +1139,7 @@ msgstr "Table avec points de montage"
 
 #: src/components/storage/ProposalVolumes.jsx:407
 msgid "File systems to create in your system"
-msgstr "Systèmes de fichier à créer dans votre système"
+msgstr "Systèmes de fichiers à créer dans votre système"
 
 #. TRANSLATORS: item which affects the final computed partition size
 #: src/components/storage/VolumeForm.jsx:97
@@ -1151,7 +1151,7 @@ msgstr "la configuration des clichés"
 #: src/components/storage/VolumeForm.jsx:102
 #, c-format
 msgid "the presence of the file system for %s"
-msgstr "la présence du système de fichier pour %s"
+msgstr "la présence du système de fichiers pour %s"
 
 #. TRANSLATORS: conjunction for merging two list items
 #: src/components/storage/VolumeForm.jsx:104
@@ -1177,7 +1177,7 @@ msgstr ""
 
 #: src/components/storage/VolumeForm.jsx:134
 msgid "Exact size for the file system."
-msgstr "Taille exacte du système de fichier."
+msgstr "Taille exacte du système de fichiers."
 
 #. TRANSLATORS: requested partition size
 #: src/components/storage/VolumeForm.jsx:146
@@ -1256,7 +1256,7 @@ msgstr "Le maximum doit être supérieur au minimum"
 
 #: src/components/storage/VolumeForm.jsx:509
 msgid "File system type"
-msgstr "Type de système de fichier"
+msgstr "Type de système de fichiers"
 
 #: src/components/storage/ZFCPDiskForm.jsx:113
 msgid "The zFCP disk was not activated."
