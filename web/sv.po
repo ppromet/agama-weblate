@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-25 02:06+0000\n"
+"POT-Creation-Date: 2023-10-29 02:08+0000\n"
 "PO-Revision-Date: 2023-10-18 18:15+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.9.1\n"
 
-#: src/App.jsx:103
+#: src/App.jsx:112
 msgid "Diagnostic tools"
 msgstr "Diagnostik verktyg"
 
@@ -336,8 +336,8 @@ msgstr "Enkel popover"
 msgid "language"
 msgstr "språk"
 
-#. TRANSLATORS: page header
 #. TRANSLATORS: page section
+#. TRANSLATORS: page header
 #: src/components/l10n/L10nPage.jsx:84
 #: src/components/overview/L10nSection.jsx:82
 msgid "Localization"

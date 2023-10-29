@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-25 02:06+0000\n"
+"POT-Creation-Date: 2023-10-29 02:08+0000\n"
 "PO-Revision-Date: 2023-10-23 01:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.9.1\n"
 
-#: src/App.jsx:103
+#: src/App.jsx:112
 msgid "Diagnostic tools"
 msgstr "診断ツール"
 
@@ -335,8 +335,8 @@ msgstr "基本ポップオーバー"
 msgid "language"
 msgstr "言語"
 
-#. TRANSLATORS: page header
 #. TRANSLATORS: page section
+#. TRANSLATORS: page header
 #: src/components/l10n/L10nPage.jsx:84
 #: src/components/overview/L10nSection.jsx:82
 msgid "Localization"
