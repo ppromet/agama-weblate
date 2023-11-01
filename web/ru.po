@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-29 02:08+0000\n"
+"POT-Creation-Date: 2023-11-01 02:14+0000\n"
 "PO-Revision-Date: 2023-09-11 13:15+0000\n"
 "Last-Translator: Alex Minton <alex239@gmail.com>\n"
 "Language-Team: Russian <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -76,20 +76,20 @@ msgid "Close"
 msgstr "Закрыть"
 
 #. TRANSLATORS: button label
-#: src/components/core/DBusError.jsx:40
+#: src/components/core/DBusError.jsx:41
 msgid "Reload"
 msgstr "Обновить"
 
 #. TRANSLATORS: page title
-#: src/components/core/DBusError.jsx:48
+#: src/components/core/DBusError.jsx:49
 msgid "D-Bus Error"
 msgstr "Ошибка D-Bus"
 
-#: src/components/core/DBusError.jsx:54
+#: src/components/core/DBusError.jsx:55
 msgid "Cannot connect to D-Bus"
 msgstr "Не удалось подключиться к службе D-Bus"
 
-#: src/components/core/DBusError.jsx:59
+#: src/components/core/DBusError.jsx:60
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
 msgstr ""
@@ -353,7 +353,7 @@ msgstr "Локализация"
 msgid "Display Language"
 msgstr "Язык"
 
-#: src/components/layout/Icon.jsx:157
+#: src/components/layout/Icon.jsx:151
 #, c-format
 msgid "Icon %s not found!"
 msgstr "Значок %s не найден!"
@@ -775,8 +775,13 @@ msgstr ""
 msgid "%d errors"
 msgstr "Найдена %d ошибка"
 
+#: src/components/software/PatternSelector.jsx:210
+msgid "Software summary and filter options"
+msgstr ""
+
 #. TRANSLATORS: search field placeholder text
-#: src/components/software/PatternSelector.jsx:214
+#: src/components/software/PatternSelector.jsx:215
+#: src/components/software/PatternSelector.jsx:216
 msgid "Search"
 msgstr ""
 

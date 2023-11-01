@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-29 02:08+0000\n"
+"POT-Creation-Date: 2023-11-01 02:14+0000\n"
 "PO-Revision-Date: 2023-10-23 01:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -70,20 +70,20 @@ msgid "Close"
 msgstr "閉じる"
 
 #. TRANSLATORS: button label
-#: src/components/core/DBusError.jsx:40
+#: src/components/core/DBusError.jsx:41
 msgid "Reload"
 msgstr "再読み込み"
 
 #. TRANSLATORS: page title
-#: src/components/core/DBusError.jsx:48
+#: src/components/core/DBusError.jsx:49
 msgid "D-Bus Error"
 msgstr "D-Bus エラー"
 
-#: src/components/core/DBusError.jsx:54
+#: src/components/core/DBusError.jsx:55
 msgid "Cannot connect to D-Bus"
 msgstr "D-Bus に接続できません"
 
-#: src/components/core/DBusError.jsx:59
+#: src/components/core/DBusError.jsx:60
 msgid ""
 "Could not connect to the D-Bus service. Please, check whether it is running."
 msgstr ""
@@ -346,7 +346,7 @@ msgstr "ローカライゼーション"
 msgid "Display Language"
 msgstr "表示言語"
 
-#: src/components/layout/Icon.jsx:157
+#: src/components/layout/Icon.jsx:151
 #, c-format
 msgid "Icon %s not found!"
 msgstr "アイコン %s が見つかりませんでした！"
@@ -764,8 +764,13 @@ msgstr "未選択"
 msgid "%d errors"
 msgstr "%d 個のエラー"
 
+#: src/components/software/PatternSelector.jsx:210
+msgid "Software summary and filter options"
+msgstr ""
+
 #. TRANSLATORS: search field placeholder text
-#: src/components/software/PatternSelector.jsx:214
+#: src/components/software/PatternSelector.jsx:215
+#: src/components/software/PatternSelector.jsx:216
 msgid "Search"
 msgstr "検索"
 
