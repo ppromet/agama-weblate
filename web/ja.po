@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-01 02:14+0000\n"
+"POT-Creation-Date: 2023-11-02 02:06+0000\n"
 "PO-Revision-Date: 2023-11-01 05:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -335,8 +335,8 @@ msgstr "基本ポップオーバー"
 msgid "language"
 msgstr "言語"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page header
+#. TRANSLATORS: page section
 #: src/components/l10n/L10nPage.jsx:84
 #: src/components/overview/L10nSection.jsx:82
 msgid "Localization"
@@ -391,8 +391,8 @@ msgstr "アドレス"
 msgid "Addresses data list"
 msgstr "アドレスデータの一覧"
 
-#. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
+#. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
 #: src/components/storage/ZFCPPage.jsx:362
@@ -527,8 +527,8 @@ msgstr "WiFi 接続が見つかりませんでした"
 msgid "Connect to a Wi-Fi network"
 msgstr "Wi-Fi ネットワークへの接続"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:170
 #: src/components/overview/NetworkSection.jsx:102
 msgid "Network"
@@ -610,8 +610,8 @@ msgstr "接続済み"
 msgid "Disconnecting"
 msgstr "切断中"
 
-#. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:50
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -656,8 +656,8 @@ msgstr "ソフトウエアリポジトリを読み込んでいます"
 msgid "Refresh the repositories"
 msgstr "リポジトリの更新"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/overview/SoftwareSection.jsx:145
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
@@ -679,8 +679,8 @@ msgstr "デバイス %s の内容を全て削除してインストールしま�
 msgid "Probing storage devices"
 msgstr "ストレージデバイスを検出しています"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:182
 #: src/components/storage/ProposalPage.jsx:218
 msgid "Storage"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-01 02:14+0000\n"
+"POT-Creation-Date: 2023-11-02 02:06+0000\n"
 "PO-Revision-Date: 2023-10-18 18:15+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -336,8 +336,8 @@ msgstr "Enkel popover"
 msgid "language"
 msgstr "språk"
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page header
+#. TRANSLATORS: page section
 #: src/components/l10n/L10nPage.jsx:84
 #: src/components/overview/L10nSection.jsx:82
 msgid "Localization"
@@ -394,8 +394,8 @@ msgstr "Adresser"
 msgid "Addresses data list"
 msgstr "Adresser data lista"
 
-#. TRANSLATORS: table header
 #. TRANSLATORS: input field for the iSCSI initiator name
+#. TRANSLATORS: table header
 #: src/components/network/ConnectionsTable.jsx:57
 #: src/components/network/ConnectionsTable.jsx:86
 #: src/components/storage/ZFCPPage.jsx:362
@@ -529,8 +529,8 @@ msgstr "Hittade inga WiFi-anslutningar"
 msgid "Connect to a Wi-Fi network"
 msgstr "Anslut till ett Wi-Fi nätverk"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section title
+#. TRANSLATORS: page title
 #: src/components/network/NetworkPage.jsx:170
 #: src/components/overview/NetworkSection.jsx:102
 msgid "Network"
@@ -612,8 +612,8 @@ msgstr "Ansluten"
 msgid "Disconnecting"
 msgstr "Kopplar från"
 
-#. TRANSLATORS: Wifi network status
 #. TRANSLATORS: iSCSI connection status
+#. TRANSLATORS: Wifi network status
 #: src/components/network/WifiNetworkListItem.jsx:50
 #: src/components/storage/iscsi/NodesPresenter.jsx:63
 msgid "Disconnected"
@@ -659,8 +659,8 @@ msgstr "Läser programvaruförråd"
 msgid "Refresh the repositories"
 msgstr "Uppdatera förråden"
 
-#. TRANSLATORS: page title
 #. TRANSLATORS: page section
+#. TRANSLATORS: page title
 #: src/components/overview/SoftwareSection.jsx:145
 #: src/components/software/SoftwarePage.jsx:81
 msgid "Software"
@@ -682,8 +682,8 @@ msgstr "Installerar på enhet %s och raderar allt innehåll"
 msgid "Probing storage devices"
 msgstr "Undersöker lagringsenheter"
 
-#. TRANSLATORS: page section title
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section title
 #: src/components/overview/StorageSection.jsx:182
 #: src/components/storage/ProposalPage.jsx:218
 msgid "Storage"
