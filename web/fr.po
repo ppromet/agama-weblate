@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-02 02:06+0000\n"
-"PO-Revision-Date: 2023-10-29 15:15+0000\n"
+"PO-Revision-Date: 2023-11-03 03:15+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
 ">\n"
@@ -774,7 +774,7 @@ msgstr "%d erreurs"
 
 #: src/components/software/PatternSelector.jsx:210
 msgid "Software summary and filter options"
-msgstr ""
+msgstr "Synthèse logiciel et options de filtrage"
 
 #. TRANSLATORS: search field placeholder text
 #: src/components/software/PatternSelector.jsx:215
