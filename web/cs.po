@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 02:06+0000\n"
+"POT-Creation-Date: 2023-11-05 02:14+0000\n"
 "PO-Revision-Date: 2023-07-26 15:03+0000\n"
 "Last-Translator: Ladislav Slezák <lslezak@suse.com>\n"
 "Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
@@ -332,11 +332,6 @@ msgstr ""
 
 #: src/components/l10n/LanguageSwitcher.jsx:46
 msgid "Display Language"
-msgstr ""
-
-#: src/components/layout/Icon.jsx:151
-#, c-format
-msgid "Icon %s not found!"
 msgstr ""
 
 #: src/components/layout/Loading.jsx:30

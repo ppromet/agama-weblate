@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 02:06+0000\n"
+"POT-Creation-Date: 2023-11-05 02:14+0000\n"
 "PO-Revision-Date: 2023-11-03 03:15+0000\n"
 "Last-Translator: faila fail <yassadmi@proton.me>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/agama/agama-web/fr/"
@@ -350,11 +350,6 @@ msgstr "Localisation"
 #: src/components/l10n/LanguageSwitcher.jsx:46
 msgid "Display Language"
 msgstr "Langue d'affichage"
-
-#: src/components/layout/Icon.jsx:151
-#, c-format
-msgid "Icon %s not found!"
-msgstr "Icône %s non trouvée!"
 
 #: src/components/layout/Loading.jsx:30
 msgid "Loading installation environment, please wait."
@@ -1770,3 +1765,7 @@ msgstr "Utilisateur"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Authentification root"
+
+#, c-format
+#~ msgid "Icon %s not found!"
+#~ msgstr "Icône %s non trouvée!"

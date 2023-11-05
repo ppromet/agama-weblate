@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 02:06+0000\n"
+"POT-Creation-Date: 2023-11-05 02:14+0000\n"
 "PO-Revision-Date: 2023-11-01 05:15+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -345,11 +345,6 @@ msgstr "ローカライゼーション"
 #: src/components/l10n/LanguageSwitcher.jsx:46
 msgid "Display Language"
 msgstr "表示言語"
-
-#: src/components/layout/Icon.jsx:151
-#, c-format
-msgid "Icon %s not found!"
-msgstr "アイコン %s が見つかりませんでした！"
 
 #: src/components/layout/Loading.jsx:30
 msgid "Loading installation environment, please wait."
@@ -1754,6 +1749,10 @@ msgstr "ユーザ"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "root の認証"
+
+#, c-format
+#~ msgid "Icon %s not found!"
+#~ msgstr "アイコン %s が見つかりませんでした！"
 
 #~ msgid ""
 #~ "Select the device for installing the system. All the file systems will be "

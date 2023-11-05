@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-02 02:06+0000\n"
+"POT-Creation-Date: 2023-11-05 02:14+0000\n"
 "PO-Revision-Date: 2023-09-15 15:15+0000\n"
 "Last-Translator: Natasha Ament <stacheldrahtje@gmail.com>\n"
 "Language-Team: Dutch <https://l10n.opensuse.org/projects/agama/agama-web/nl/"
@@ -347,11 +347,6 @@ msgstr "Lokalisatie"
 #| msgid "language"
 msgid "Display Language"
 msgstr "taal"
-
-#: src/components/layout/Icon.jsx:151
-#, c-format
-msgid "Icon %s not found!"
-msgstr "Icoon %s niet gevonden!"
 
 #: src/components/layout/Loading.jsx:30
 msgid "Loading installation environment, please wait."
@@ -1771,6 +1766,10 @@ msgstr "Gebruiker"
 #: src/components/users/UsersPage.jsx:34
 msgid "Root authentication"
 msgstr "Root authenticatie"
+
+#, c-format
+#~ msgid "Icon %s not found!"
+#~ msgstr "Icoon %s niet gevonden!"
 
 #~ msgid ""
 #~ "Select the device for installing the system. All the file systems will be "
