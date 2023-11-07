@@ -1,0 +1,53 @@
+# Czech translations
+#
+# Copyright (C) YEAR SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the Agama package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-7 8:19+0000\n"
+"PO-Revision-Date: 2023-07-26 15:03+0000\n"
+"Last-Translator: Ladislav Slezák <lslezak@suse.com>\n"
+"Language-Team: Czech <https://l10n.opensuse.org/projects/agama/agama-web/cs/"
+">\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+# TRANSLATORS: description of product "SUSE ALP Dolomite"
+#: ALP-Dolomite.yaml:3
+msgid ""
+"SUSE ALP Dolomite is a minimum immutable OS core, focused on security to "
+"provide the bare minimum to run workloads and services as containers or "
+"virtual machines."
+msgstr ""
+"SUSE ALP Dolomite je minimální neměnitelný základní OS, zaměřený na "
+"bezpečnost pro poskytování úplného minima ke spuštění úloh a služeb v "
+"kontejnerech nebo virtuálních strojích."
+
+# TRANSLATORS: description of product "openSUSE Tumbleweed"
+#: tumbleweed.yaml:3
+msgid ""
+"The Tumbleweed distribution is a pure rolling release version of openSUSE "
+"containing the latest \"stable\" versions of all software instead of relying "
+"on rigid periodic release cycles. The project does this for users that want "
+"the newest stable software."
+msgstr ""
+"Tumbleweed je rolující verze distribuce openSUSE obsahující poslední "
+"\"stabilní\" verze veškerého software namísto pevných pravidelných vydání. "
+"Projekt je určen pro uživatele, kteří chtějí nejnovější stabilní software."
+
+# TRANSLATORS: description of product "openSUSE Leap 16.0"
+#: leap16.yaml:4
+msgid ""
+"[Experimental project] openSUSE Leap 16 is built on top of the next "
+"generation Adaptable Linux Platform (ALP) from SUSE."
+msgstr ""
+"[Experimentální projekt] openSUSE Leap 16 je postaven na budoucí generaci "
+"Adaptable Linux Platform (ALP) od SUSE."
+
