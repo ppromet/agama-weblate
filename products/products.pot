@@ -16,9 +16,9 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"POT-Creation-Date: 2023-10-6 19:36+0000\n"
+"POT-Creation-Date: 2023-10-7 8:19+0000\n"
 
-# TRANSLATORS: product description
+# TRANSLATORS: description of product "SUSE ALP Dolomite"
 #: ALP-Dolomite.yaml:3
 msgid ""
 "SUSE ALP Dolomite is a minimum immutable OS core, focused on security to "
@@ -26,7 +26,7 @@ msgid ""
 "virtual machines."
 msgstr ""
 
-# TRANSLATORS: product description
+# TRANSLATORS: description of product "openSUSE Tumbleweed"
 #: tumbleweed.yaml:3
 msgid ""
 "The Tumbleweed distribution is a pure rolling release version of openSUSE "
@@ -35,7 +35,7 @@ msgid ""
 "that want the newest stable software."
 msgstr ""
 
-# TRANSLATORS: product description
+# TRANSLATORS: description of product "openSUSE Leap 16.0"
 #: leap16.yaml:4
 msgid ""
 "[Experimental project] openSUSE Leap 16 is built on top of the next "
