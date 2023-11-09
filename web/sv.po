@@ -344,7 +344,6 @@ msgid "Localization"
 msgstr "Lokalisering"
 
 #: src/components/l10n/LanguageSwitcher.jsx:46
-#, fuzzy
 #| msgid "language"
 msgid "Display Language"
 msgstr "Visningsspråk"
