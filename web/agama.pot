@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-20 02:17+0000\n"
+"POT-Creation-Date: 2023-11-21 02:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,8 +210,8 @@ msgstr ""
 msgid "Storage"
 msgstr ""
 
-#. TRANSLATORS: page section
 #. TRANSLATORS: page title
+#. TRANSLATORS: page section
 #: src/components/core/IssuesPage.jsx:108
 #: src/components/overview/SoftwareSection.jsx:141
 #: src/components/software/SoftwarePage.jsx:81
@@ -346,8 +346,8 @@ msgstr ""
 msgid "language"
 msgstr ""
 
-#. TRANSLATORS: page header
 #. TRANSLATORS: page section
+#. TRANSLATORS: page header
 #: src/components/l10n/L10nPage.jsx:84
 #: src/components/overview/L10nSection.jsx:82
 msgid "Localization"
