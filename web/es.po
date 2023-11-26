@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-22 02:19+0000\n"
+"POT-Creation-Date: 2023-11-26 02:17+0000\n"
 "PO-Revision-Date: 2023-10-27 13:15+0000\n"
 "Last-Translator: Victor hck <victorhck@opensuse.org>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/agama/agama-web/"
@@ -153,7 +153,7 @@ msgstr ""
 #: src/components/storage/ProposalSettingsSection.jsx:359
 #: src/components/storage/ProposalSettingsSection.jsx:504
 #: src/components/storage/ProposalVolumes.jsx:148
-#: src/components/storage/ProposalVolumes.jsx:282
+#: src/components/storage/ProposalVolumes.jsx:283
 #: src/components/storage/ZFCPPage.jsx:513
 msgid "Accept"
 msgstr "Aceptar"
@@ -299,7 +299,7 @@ msgstr "Cancelar"
 #. TRANSLATORS: dropdown label
 #: src/components/core/RowActions.jsx:66
 #: src/components/storage/ProposalVolumes.jsx:119
-#: src/components/storage/ProposalVolumes.jsx:309
+#: src/components/storage/ProposalVolumes.jsx:310
 msgid "Actions"
 msgstr "Acciones"
 
@@ -435,7 +435,7 @@ msgid "IP addresses"
 msgstr "Direcciones IP"
 
 #: src/components/network/ConnectionsTable.jsx:67
-#: src/components/storage/ProposalVolumes.jsx:233
+#: src/components/storage/ProposalVolumes.jsx:234
 #: src/components/storage/iscsi/InitiatorPresenter.jsx:49
 #: src/components/storage/iscsi/NodesPresenter.jsx:73
 #: src/components/users/FirstUser.jsx:170
@@ -1188,48 +1188,48 @@ msgid "partition"
 msgstr "partición"
 
 #. TRANSLATORS: filesystem flag, it uses an encryption
-#: src/components/storage/ProposalVolumes.jsx:215
+#: src/components/storage/ProposalVolumes.jsx:216
 msgid "encrypted"
 msgstr "cifrado"
 
 #. TRANSLATORS: filesystem flag, it allows creating snapshots
-#: src/components/storage/ProposalVolumes.jsx:217
+#: src/components/storage/ProposalVolumes.jsx:218
 msgid "with snapshots"
 msgstr "con instantáneas"
 
 #. TRANSLATORS: flag for transactional file system
-#: src/components/storage/ProposalVolumes.jsx:219
+#: src/components/storage/ProposalVolumes.jsx:220
 msgid "transactional"
 msgstr "transaccional"
 
-#: src/components/storage/ProposalVolumes.jsx:228
+#: src/components/storage/ProposalVolumes.jsx:229
 #: src/components/storage/iscsi/NodesPresenter.jsx:77
 msgid "Delete"
 msgstr "Eliminar"
 
-#: src/components/storage/ProposalVolumes.jsx:274
+#: src/components/storage/ProposalVolumes.jsx:275
 msgid "Edit file system"
 msgstr "Editar sistema de archivos"
 
-#: src/components/storage/ProposalVolumes.jsx:306
+#: src/components/storage/ProposalVolumes.jsx:307
 #: src/components/storage/VolumeForm.jsx:500
 msgid "Mount point"
 msgstr "Punto de montaje"
 
-#: src/components/storage/ProposalVolumes.jsx:307
+#: src/components/storage/ProposalVolumes.jsx:308
 msgid "Details"
 msgstr "Detalles"
 
-#: src/components/storage/ProposalVolumes.jsx:308
+#: src/components/storage/ProposalVolumes.jsx:309
 #: src/components/storage/VolumeForm.jsx:517
 msgid "Size"
 msgstr "Tamaño"
 
-#: src/components/storage/ProposalVolumes.jsx:344
+#: src/components/storage/ProposalVolumes.jsx:345
 msgid "Table with mount points"
 msgstr "Tabla con puntos de montaje"
 
-#: src/components/storage/ProposalVolumes.jsx:407
+#: src/components/storage/ProposalVolumes.jsx:408
 msgid "File systems to create in your system"
 msgstr "Sistemas de archivos para crear en su sistema"
 
